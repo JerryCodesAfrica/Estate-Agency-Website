@@ -22,7 +22,7 @@
  
   nav ul{
       margin-left: 200px;
-      padding-top: 60px;
+      padding-top: 40px;
       padding-bottom: 20px;
      
   }
@@ -275,6 +275,8 @@
     top: 0;
   }
    .carousel_info{
+    animation-name: blink;
+    animation-iteration-count: 1;
     position: absolute;
     display: grid;
     justify-content: space-between;
@@ -350,4 +352,595 @@
   margin-bottom: 20px;
   font-weight: 600;
  }
+ /* Latest properties */
+ /* ====================== */
+ .container_div_properties{
+  padding: 0 7pc 0 7pc;
+  margin-top: 20px;
+  display: grid;
+  transition-duration: .5s;
+ }
+ .container_div_properties .properties-heading{
+  font-size: 45px;
+ }
+.container_div_properties .properties-container-card{
+  margin-top: 90px;
+  display: flex;
+  justify-content: space-around;
+ }
+
+ .p1{
+  display: inline;
+  width: 700px;
+  height: 400px;
+  background:url(../img/property-3.jpg);
+  background-size: contain;
+  overflow-y: hidden;
+  background-repeat: no-repeat;
+  animation-duration: .5s;
+  transition-duration: .5s;
+}
+.p1 .properties-info{
+  margin-top: 280px;
+  padding: 12px;
+}
+.p1 .properties-info .ptext2:not(num){
+  color: white;
+}
+.p1 .properties-info .ptext2 .num{
+  text-shadow: 0 0 1px black;
+}
+.p1 .properties-info .ptext2{
+  font-size: 20px;
+}
+.p1 .properties-info .ptext3{
+  width: 150px;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #2ECA6A;
+  border-radius: 20px;
+  padding: 5px 0px 5px 0px;
+}
+/* =================== */
+.p2p{
+  margin-left: 40px;
+  margin-right: 20px;
+  width: 750px;
+  height: 400px;
+  background:url(../img/property-1.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.p2p .properties-info{
+  margin-top: 280px;
+  padding: 12px;
+}
+.p2p .properties-info .ptext2:not(num){
+  color: white;
+}
+.p2p .properties-info .ptext2 .num{
+  text-shadow: 0 0 1px black;
+}
+.p2p .properties-info .ptext2{
+  font-size: 20px;
+}
+.p2p .properties-info .ptext3{
+  width: 150px;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #2ECA6A;
+  border-radius: 20px;
+  padding: 5px 0px 5px 0px;
+}
+/* ======================== */
+.p3p{
+  margin-left: 20px;
+  width: 720px;
+  height: 400px;
+  left: 200px;
+  background:url(../img/property-6.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.p3p .properties-info{
+  margin-top: 280px;
+  padding: 12px;
+}
+.p3p .properties-info .ptext2:not(num){
+  color: white;
+}
+.p3p .properties-info .ptext2 .num{
+  text-shadow: 0 0 1px black;
+}
+.p3p .properties-info .ptext2{
+  font-size: 20px;
+}
+.p3p .properties-info .ptext3{
+  width: 150px;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #2ECA6A;
+  border-radius: 20px;
+  padding: 5px 0px 5px 0px;
+}
+  
+/* ================= */
+.p4p{
+  overflow-y: hidden;
+  transition-duration: 1s;
+  display: none;
+  margin-left: 20px;
+  width: 0;
+  height: 400px;
+  background:url(../img/property-8.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  animation-name: moveright;
+  animation-duration: .3s;
+  animation-iteration-count: 1;
+}
+.p4p .properties-info{
+  margin-top: 280px;
+  padding: 12px;
+}
+.p4p .properties-info .ptext2:not(num){
+  color: white;
+}
+.p4p .properties-info .ptext2 .num{
+  text-shadow: 0 0 1px black;
+}
+.p4p .properties-info .ptext2{
+  font-size: 20px;
+}
+.p4p .properties-info .ptext3{
+  width: 150px;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #2ECA6A;
+  border-radius: 20px;
+  padding: 5px 0px 5px 0px;
+}
+.properties-slide{
+  display: flex;
+  justify-content: center;
+}
+.properties-slide  .active{
+  margin-top: 20px;
+  margin-right: 5px;
+  content: "";
+  width: 40px;
+  height: 10px;
+  border-radius: 0;
+  border-style: solid;
+  border-width: 0;
+  background-color:#2ECA6A;
+}
+.properties-slide .ps2{
+  margin-top: 20px;
+  margin-right: 5px;
+  content: "";
+  width: 20px;
+  height: 10px;
+  border-radius: 0;
+  border-style: solid;
+  border-width: .1px;
+  color: green;
+  background-color: black;
+}
+/* =================Properties End=================== */
+
+/* Best Agents */
+.container_div_agents{
+  padding: 7pc 7pc 0 7pc;
+  margin-top: 60px;
+  display: grid;
+  transition-duration: .5s;
+ }
+ .container_div_agents .agents-heading{
+  font-size: 45px;
+ }
+.container_div_agents .agents-container-card{
+  margin-top: 90px;
+  display: flex;
+  justify-content: space-around;
+ }
+
+ .a1-img{
+  display: inline;
+  width: 700px;
+  height: 400px;
+  background: url(../img/agent-1.jpg);
+  background-size: contain;
+  overflow-y: hidden;
+  background-repeat: no-repeat;
+  animation-duration: .5s;
+  transition-duration: .5s;
+}
+.a1 .agents-info{
+  margin-top: 280px;
+  padding: 12px;
+}
+.a1 .agents-info .atext2:not(num){
+  color: white;
+}
+.a1 .agents-info .atext2 .num{
+  text-shadow: 0 0 1px black;
+}
+.a1 .agents-info .atext2{
+  font-size: 20px;
+}
+.a1 .agents-info .atext3{
+  width: 150px;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #2ECA6A;
+  border-radius: 20px;
+  padding: 5px 0px 5px 0px;
+}
+/* ==========Second grid========= */
+.a2-img{
+  margin-left: 40px;
+  margin-right: 20px;
+  width: 750px;
+  height: 400px;
+  background:url(../img/agent-2.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.a2a .agents-info{
+  margin-top: 280px;
+  padding: 12px;
+}
+.a2a .agents-info .atext2:not(num){
+  color: white;
+}
+.a2a .agents-info .atext2 .num{
+  text-shadow: 0 0 1px black;
+}
+.a2a .agents-info .atext2{
+  font-size: 20px;
+}
+.a2a .agents-info .atext3{
+  width: 150px;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #2ECA6A;
+  border-radius: 20px;
+  padding: 5px 0px 5px 0px;
+}
+/* ===========Third gird============= */
+.a3-img{
+  margin-left: 20px;
+  width: 720px;
+  height: 400px;
+  left: 200px;
+  background:url(../img/agent-3.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.a3a .agents-info{
+  margin-top: 280px;
+  padding: 12px;
+}
+.a3a .agents-info .atext2:not(num){
+  color: white;
+}
+.a3a .agents-info .atext2 .num{
+  text-shadow: 0 0 1px black;
+}
+.a3a .agents-info .atext2{
+  font-size: 20px;
+}
+.a3a .agents-info .atext3{
+  width: 150px;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #2ECA6A;
+  border-radius: 20px;
+  padding: 5px 0px 5px 0px;
+}
+  
+/* ===========Fourth grid=========== */
+.a4-img{
+  overflow-y: hidden;
+  transition-duration: 1s;
+  display: none;
+  margin-left: 20px;
+  width: 0;
+  height: 400px;
+  background:url(../img/property-8.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  animation-name: moveright;
+  animation-duration: .3s;
+  animation-iteration-count: 1;
+}
+.a4a.agents-info{
+  margin-top: 280px;
+  padding: 12px;
+}
+.a4a .agents-info .atext2:not(num){
+  color: white;
+}
+.a4a .agents-info .atext2 .num{
+  text-shadow: 0 0 1px black;
+}
+.a4a .agents-info .atext2{
+  font-size: 20px;
+}
+.a4a .agents-info .atext3{
+  width: 150px;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #2ECA6A;
+  border-radius: 20px;
+  padding: 5px 0px 5px 0px;
+}
+.agents-slide{
+  display: flex;
+  justify-content: center;
+}
+.agents-slide  .active{
+  margin-top: 20px;
+  margin-right: 5px;
+  content: "";
+  width: 40px;
+  height: 10px;
+  border-radius: 0;
+  border-style: solid;
+  border-width: 0;
+  background-color:#2ECA6A;
+}
+.agents-slide .as2{
+  margin-top: 20px;
+  margin-right: 5px;
+  content: "";
+  width: 20px;
+  height: 10px;
+  border-radius: 0;
+  border-style: solid;
+  border-width: .1px;
+  color: green;
+  background-color: black;
+}
+/* Latest News */
+.container_div_properties{
+  padding: 0 7pc 0 7pc;
+  margin-top: 20px;
+  display: grid;
+  transition-duration: .5s;
+ }
+ .container_div_properties .properties-heading{
+  font-size: 45px;
+ }
+.container_div_properties .properties-container-card{
+  margin-top: 90px;
+  display: flex;
+  justify-content: space-around;
+ }
+
+ .p1{
+  display: inline;
+  width: 700px;
+  height: 400px;
+  background:url(../img/property-3.jpg);
+  background-size: contain;
+  overflow-y: hidden;
+  background-repeat: no-repeat;
+  animation-duration: .5s;
+  transition-duration: .5s;
+}
+.p1 .properties-info{
+  margin-top: 280px;
+  padding: 12px;
+}
+.p1 .properties-info .ptext2:not(num){
+  color: white;
+}
+.p1 .properties-info .ptext2 .num{
+  text-shadow: 0 0 1px black;
+}
+.p1 .properties-info .ptext2{
+  font-size: 20px;
+}
+.p1 .properties-info .ptext3{
+  width: 150px;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #2ECA6A;
+  border-radius: 20px;
+  padding: 5px 0px 5px 0px;
+}
+/* =================== */
+.p2p{
+  margin-left: 40px;
+  margin-right: 20px;
+  width: 750px;
+  height: 400px;
+  background:url(../img/property-1.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.p2p .properties-info{
+  margin-top: 280px;
+  padding: 12px;
+}
+.p2p .properties-info .ptext2:not(num){
+  color: white;
+}
+.p2p .properties-info .ptext2 .num{
+  text-shadow: 0 0 1px black;
+}
+.p2p .properties-info .ptext2{
+  font-size: 20px;
+}
+.p2p .properties-info .ptext3{
+  width: 150px;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #2ECA6A;
+  border-radius: 20px;
+  padding: 5px 0px 5px 0px;
+}
+/* ======================== */
+.p3p{
+  margin-left: 20px;
+  width: 720px;
+  height: 400px;
+  left: 200px;
+  background:url(../img/property-6.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.p3p .properties-info{
+  margin-top: 280px;
+  padding: 12px;
+}
+.p3p .properties-info .ptext2:not(num){
+  color: white;
+}
+.n3n .news-info .ptext2 .num{
+  text-shadow: 0 0 1px black;
+}
+.n3n .news-info .ntext2{
+  font-size: 20px;
+}
+.n3n .news-info .ntext3{
+  width: 150px;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #2ECA6A;
+  border-radius: 20px;
+  padding: 5px 0px 5px 0px;
+}
+  
+/* ================= */
+.n4n{
+  overflow-y: hidden;
+  transition-duration: 1s;
+  display: none;
+  margin-left: 20px;
+  width: 0;
+  height: 400px;
+  background:url(../img/property-8.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  animation-name: moveright;
+  animation-duration: .3s;
+  animation-iteration-count: 1;
+}
+.n4n .news-info{
+  margin-top: 280px;
+  padding: 12px;
+}
+.n4n .news-info .ntext2:not(num){
+  color: white;
+}
+.n4n .news-info .ntext2 .num{
+  text-shadow: 0 0 1px black;
+}
+.n4n .news-info .ntext2{
+  font-size: 20px;
+}
+.n4n .news-info .ntext3{
+  width: 150px;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #2ECA6A;
+  border-radius: 20px;
+  padding: 5px 0px 5px 0px;
+}
+.news-slide{
+  display: flex;
+  justify-content: center;
+}
+.news-slide  .active{
+  margin-top: 20px;
+  margin-right: 5px;
+  content: "";
+  width: 40px;
+  height: 10px;
+  border-radius: 0;
+  border-style: solid;
+  border-width: 0;
+  background-color:#2ECA6A;
+}
+.news-slide .ns2{
+  margin-top: 20px;
+  margin-right: 5px;
+  content: "";
+  width: 20px;
+  height: 10px;
+  border-radius: 0;
+  border-style: solid;
+  border-width: .1px;
+  color: green;
+  background-color: black;
+}
+/* Animations */
+@keyframes moveright {
+  from{
+    width: 0;
+  }
+  to{
+    width: 100;
+  }
+}
+@keyframes blink {
+  from{
+    display: none;
+  }
+  to{
+    display: grid;
+  }
+}
+/* ================== */
   
