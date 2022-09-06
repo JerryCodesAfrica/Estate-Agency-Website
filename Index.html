@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Real Estate website</title>
 </head>
 
@@ -14,16 +15,114 @@
     <nav class="navigation_menu">
         <ul class="list-container">
             <li class="logo list1"><a href="#" class="logo-text">Estate<span class="logo-text-2">Agency</span></a></li>
-            <li class="list2"><a href="./Index.html">Home</a></li>
+            <li class="list2 active"><a href="./Index.html">Home</a></li>
             <li class="list3"><a href="./about.html">About</a></li>
             <li class="list4"><a href="#">Property</a></li>
             <li class="list5"><a href="#">Pages</a></li>
             <li class="list6"><a href="#">Contact</a></li>
-            <li class="list7"><a href=""><img src="./img/Search-btn.svg" alt="" class="search-btn"></a></li>
+            <li class="list7"><a href="#" class="searchbtn1"><img src="./img/Search-btn.svg" alt="" class="img_list7"></a></li>
         </ul>
+        <div class="search-menu">
+            <div class="click-closed"></div>
+  <!--/ Form Search Star /-->
+  </div>
     </nav>
-
-
+    <div class="box-collapse">
+        <div class="title-box-d">
+          <h3 class="title-d">Search Property</h3>
+          <span class="close-box"><a href="#" class="clickclose"><img src="./img/close_FILL0_wght400_GRAD0_opsz48.svg" alt="" class="close-button1"></a></span>
+        </div>
+        <div class="box-collapse-wrap">
+          <form class="form-a">
+            <div class="row">
+                <div class="col-md-6 mb-2">
+                    <div class="form-group">
+                        <label for="Type" class="keyword">Keyword</label>
+                        <input type="text" class="kw" placeholder="Keyword">
+                    </div>
+                </div>
+            <div class="first-column">
+              <div class="col-md mb-2">
+                <div class="form-group">
+                  <label for="Type">Type</label>
+                  <select class="form-contro" id="Type">
+                    <option>All Type</option>
+                    <option>For Rent</option>
+                    <option>For Sale</option>
+                    <option>Open House</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-md-6 mb-2">
+                <div class="form-group">
+                  <label for="city">City</label>
+                  <select class="form-control form-control-lg form-control-a" id="city">
+                    <option>All City</option>
+                    <option>Alabama</option>
+                    <option>Arizona</option>
+                    <option>California</option>
+                    <option>Colorado</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="second-column">
+              <div class="col-md-6 mb-2">
+                <div class="form-group">
+                  <label for="bedrooms">Bedrooms</label>
+                  <select class="form-control form-control-lg form-control-a" id="bedrooms">
+                    <option>Any</option>
+                    <option>01</option>
+                    <option>02</option>
+                    <option>03</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-md-6 mb-2">
+                <div class="form-group">
+                  <label for="garages">Garages</label>
+                  <select class="form-control form-control-lg form-control-a" id="garages">
+                    <option>Any</option>
+                    <option>01</option>
+                    <option>02</option>
+                    <option>03</option>
+                    <option>04</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="third-column">
+              <div class="col-md-6 mb-2">
+                <div class="form-group">
+                  <label for="bathrooms">Bathrooms</label>
+                  <select class="form-control form-control-lg form-control-a" id="bathrooms">
+                    <option>Any</option>
+                    <option>01</option>
+                    <option>02</option>
+                    <option>03</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-md-6 mb-2">
+                <div class="form-group">
+                  <label for="price">Min Price</label>
+                  <select class="form-control form-control-lg form-control-a" id="price">
+                    <option>Unlimite</option>
+                    <option>$50,000</option>
+                    <option>$100,000</option>
+                    <option>$150,000</option>
+                    <option>$200,000</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+              <div class="col-md-12">
+                <button type="submit" class="btn-sp btn-b">Search Property</button>
+              </div>
+            </div>
+          </form>
+        </div>
+    </div>
 
 
     <div id="ninja-slider">
@@ -87,21 +186,26 @@
                 <div class="grid-1 g1">
                     <span class="icon icon-1">Lifestyle</span>
                     <br>
-                    <h4 class="grid-1-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, repellendus. Nesciunt, molestiae, quam dignissimos ad tenetur repellendus voluptatibus debitis aliquid error facere quidem!</h4>
+                    <h4 class="grid-1-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima,
+                        repellendus. Nesciunt, molestiae, quam dignissimos ad tenetur repellendus voluptatibus debitis
+                        aliquid error facere quidem!</h4>
                 </div>
             </div>
             <div class="card grid">
                 <div class="grid-1 g2">
                     <span class="icon icon-2">Loans</span>
                     <br>
-                    <h4 class="grid-2-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit libero aspernatur nihil et error, alias praesentium, ut, aliquam a dolore tenetur similique voluptatum?</h4>
+                    <h4 class="grid-2-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
+                        libero aspernatur nihil et error, alias praesentium, ut, aliquam a dolore tenetur similique
+                        voluptatum?</h4>
                 </div>
             </div>
             <div class="card grid">
                 <div class="grid-1 g3">
                     <span class="icon icon-3">Sell</span>
                     <br>
-                    <h4 class="grid-3-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere aliquid, quia quis excepturi eum saepe veniam nisi, aliquam laboriosam reiciendis id? Itaque, vero!</h4>
+                    <h4 class="grid-3-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere aliquid,
+                        quia quis excepturi eum saepe veniam nisi, aliquam laboriosam reiciendis id? Itaque, vero!</h4>
                 </div>
             </div>
         </div>
@@ -129,21 +233,21 @@
                 </div>
             </div>
             <div class="p3p properties_ ">
-                    <div class="properties-info">
-                        <div class="properties-container-text">
-                            <h2 class="ptext2"><span class="num">204</span>&nbsp; MOUNT <br> OLIVE ROAD TWO</h2>
-                            <h1 class="ptext3">Rent|$ &nbsp;12.000</h1>
-                        </div>
-                     </div>
+                <div class="properties-info">
+                    <div class="properties-container-text">
+                        <h2 class="ptext2"><span class="num">204</span>&nbsp; MOUNT <br> OLIVE ROAD TWO</h2>
+                        <h1 class="ptext3">Rent|$ &nbsp;12.000</h1>
+                    </div>
+                </div>
             </div>
             <div class="p4p properties_">
-                    <div class="properties-info">
-                        <div class="properties-container-text">
-                            <h2 class="ptext2"><span class="num">204</span>&nbsp; MOUNT <br> OLIVE ROAD TWO</h2>
-                            <h1 class="ptext3">Rent|$ &nbsp;12.000</h1>
-                        </div>
+                <div class="properties-info">
+                    <div class="properties-container-text">
+                        <h2 class="ptext2"><span class="num">204</span>&nbsp; MOUNT <br> OLIVE ROAD TWO</h2>
+                        <h1 class="ptext3">Rent|$ &nbsp;12.000</h1>
                     </div>
-            </div> 
+                </div>
+            </div>
         </div>
         <div class="properties-slide">
             <a class="active ps1"></a>
@@ -165,7 +269,7 @@
             </div>
             <div class="a4a agents_">
                 <img alt="" class="a4-img">
-            </div> 
+            </div>
         </div>
     </div>
     <div class="latest_properties">
@@ -178,7 +282,7 @@
     </div>
     <!-- Agents end -->
 
-    <!--Latest News-->
+    <!-- Latest News
     <div class="container_div_news">
         <h1 class="news-heading">Latest Properties</h1>
         <div class="news-container-card">
@@ -190,7 +294,7 @@
                     </div>
                 </div>
             </div>
-            <div class="p2 news_ ">
+            <div class="n2n news_ ">
                 <div class="n2n news_">
                     <div class="news-info">
                         <div class="news-container-text">
@@ -217,14 +321,90 @@
                     </div>
             </div> 
         </div>
-        <div class="properties-slide">
+        <div class="news-slide">
             <a class="active ns1"></a>
             <a class="ns2"></a>
         </div>
+    </div> -->
+    <!-- Testemonials -->
+    <div class="testemonial-container">
+        <br>
+        <div class="testemonial-header">
+            <h1 class="testemonial-header-text">Testemonials</h1>
+            <div class="testemonial-arrow-navigation"></div>
+            <div class="testemonial-arrow-navigation"></div>
+        </div>
+        <div class="testemonial-grid-body">
+            <img src="./img/testimonial-2.jpg" alt="" class="testemonial-grid-image">
+            <div class="testemonial-grid-block">
+                <img src="./img/format_quote_FILL0_wght400_GRAD0_opsz48.svg" alt=""
+                    class="testemonial-grid-block-quote">
+                <h4 class="testemonial-grid-block-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Mollitia, deleniti eius nesciunt alias accusantium laborum impedit, ab quisquam cupiditate incidunt
+                    sequi</h4>
+                <div class="testemonial-grid-block-profile">
+                    <img  src="./img/mini-testimonial-2.jpg" class="testemonial-grid-profile-image">
+                    <h4 class="name">Pablo & Emma</h4>
+                </div>
+            </div>
+        </div>
     </div>
-
+    <footer class="fotter pages">
+        <div class="footer-top-container">
+            <div class="grids">
+                <h2 class="foter-heading"></h2>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="grids">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="grids">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+         </div>
+         <div class="footer-bottom">
+            <div>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            <div>
+                <a href=""><img src="" alt=""></a>
+                <a href=""><img src="" alt=""></a>
+                <a href=""><img src="" alt=""></a>
+                <a href=""><img src="" alt=""></a>
+                <a href=""><img src="" alt=""></a>
+            </div>
+         </div>
+    </footer>
+    <div id="preloader"></div>
     <script src="./JS/script.js"></script>
     <script src="./JS/ninja-slider.js"></script>
+    <script src="./lib/jquery/jquery.min.js">
+         $(window).on('load', function () {
+        if ($('#preloader').length) {
+          $('#preloader').delay(1000).fadeOut('slow', function () {
+            $(this).remove();
+          });
+        }
+      });
+    </script>
 </body>
 
 </html>

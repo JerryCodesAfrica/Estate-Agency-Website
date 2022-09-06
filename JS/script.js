@@ -28,3 +28,19 @@ function slideright(){
  } 
  button1.addEventListener('click',slideright);
 // 
+// search-function
+var searchbtn = document.querySelector(".searchbtn1");
+var searchmenu = document.querySelector(".box-collapse");
+var closesearch = document.querySelector(".clickclose");
+function displaysearchmenu(){
+    searchmenu.style.left = "40pc";
+    searchmenu.style.transition = "1s";
+}
+searchbtn.addEventListener('click',displaysearchmenu);
+//
+function closesearchmenu(){
+    searchmenu.style.left = "88pc";
+    searchmenu.style.transition = "1s";
+}
+
+closesearch.addEventListener('click',closesearchmenu);

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,33 +8,147 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>Estate Agency</title>
 </head>
+
 <body>
-     <!--Navigation menu-->
+    <!--Navigation menu-->
+    <!--Navigation menu-->
     <nav class="navigation_menu">
         <ul class="list-container">
-           <li class="logo list1"><a href="#" class="logo-text">Estate<span class="logo-text-2">Agency</span></a></li>
+            <li class="logo list1"><a href="#" class="logo-text">Estate<span class="logo-text-2">Agency</span></a></li>
             <li class="list2"><a href="./Index.html">Home</a></li>
             <li class="list3"><a href="./about.html">About</a></li>
             <li class="list4"><a href="#">Property</a></li>
             <li class="list5"><a href="#">Pages</a></li>
             <li class="list6"><a href="#">Contact</a></li>
-            <li class="list7"><a href=""><img src="./img/Search-btn.svg" alt="" class="search-btn"></a></li>
+            <li class="list7"><a href="#" class="searchbtn1"><img src="./img/Search-btn.svg" alt=""
+                        class="img_list7"></a></li>
         </ul>
     </nav>
-
+    <div class="box-collapse">
+        <div class="title-box-d">
+            <h3 class="title-d">Search Property</h3>
+            <span class="close-box"><a href="#" class="clickclose"><img src="./img/close_FILL0_wght400_GRAD0_opsz48.svg"
+                        alt="" class="close-button1"></a></span>
+        </div>
+        <div class="box-collapse-wrap">
+            <form class="form-a">
+                <div class="row">
+                    <div class="col-md-6 mb-2">
+                        <div class="form-group">
+                            <label for="Type" class="keyword">Keyword</label>
+                            <input type="text" class="kw" placeholder="Keyword">
+                        </div>
+                    </div>
+                    <div class="first-column">
+                        <div class="col-md mb-2">
+                            <div class="form-group">
+                                <label for="Type">Type</label>
+                                <select class="form-contro" id="Type">
+                                    <option>All Type</option>
+                                    <option>For Rent</option>
+                                    <option>For Sale</option>
+                                    <option>Open House</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-2">
+                            <div class="form-group">
+                                <label for="city">City</label>
+                                <select class="form-control form-control-lg form-control-a" id="city">
+                                    <option>All City</option>
+                                    <option>Alabama</option>
+                                    <option>Arizona</option>
+                                    <option>California</option>
+                                    <option>Colorado</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="second-column">
+                        <div class="col-md-6 mb-2">
+                            <div class="form-group">
+                                <label for="bedrooms">Bedrooms</label>
+                                <select class="form-control form-control-lg form-control-a" id="bedrooms">
+                                    <option>Any</option>
+                                    <option>01</option>
+                                    <option>02</option>
+                                    <option>03</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-2">
+                            <div class="form-group">
+                                <label for="garages">Garages</label>
+                                <select class="form-control form-control-lg form-control-a" id="garages">
+                                    <option>Any</option>
+                                    <option>01</option>
+                                    <option>02</option>
+                                    <option>03</option>
+                                    <option>04</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="third-column">
+                        <div class="col-md-6 mb-2">
+                            <div class="form-group">
+                                <label for="bathrooms">Bathrooms</label>
+                                <select class="form-control form-control-lg form-control-a" id="bathrooms">
+                                    <option>Any</option>
+                                    <option>01</option>
+                                    <option>02</option>
+                                    <option>03</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-2">
+                            <div class="form-group">
+                                <label for="price">Min Price</label>
+                                <select class="form-control form-control-lg form-control-a" id="price">
+                                    <option>Unlimite</option>
+                                    <option>$50,000</option>
+                                    <option>$100,000</option>
+                                    <option>$150,000</option>
+                                    <option>$200,000</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <button type="submit" class="btn-sp btn-b">Search Property</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
     <!--body text start-->
-    <section class="section">
+    <section class="section_about">
         <div class="header_container">
-            <div class="vertical_line"></div>
-            <div><h1 class="header_text">we do great design for creative folks</h1></div>
-            <div>Home &nbsp;/<span>&nbsp;About</span></div>
+            <div class="header-vl">
+                <div>
+                    <h1 class="header_text">We Do Great Design For Creative Folks</h1>
+                </div>
+            </div>
+            <div class="home-about">Home &nbsp;<span class="about-about">/&nbsp;About</span></div>
         </div>
         <div class="img_text_div">
-            <img src="./img/slide-about-1.jpg" alt="">
-            <h3 class="img_text">Estate Agency since 2017<br><span class="img_text_1">Art&creative</span></h3>
-            <div class="about_section">
-                <img src="./img/about-2.jpg" alt="">
-                <div class="about_text"></div>
+            <div class="container-div-about">
+                <img src="./img/slide-about-1.jpg" alt="" class="about-image-1">
+                <h3 class="img-text-about">Estate Agency<span class="hyphen">__</span> <br> since 2017<br><span
+                        class="img-text-about-1">Art&creative</span></h3>
+            </div>
+            <div class="second-about-section">
+
+            </div>
+            <div class="container-sec3">
+                <div class="sec3-about-img"><img src="./img/about-2.jpg" alt="" class="abt-img3"></div>
+                <div>
+                    <h3 class="exclusive">EstateAgnecy Exclusive Property</h3>
+                </div>
+                <div>
+                    <h4 class="randomtext">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis ipsum nostrum
+                        cum temporibus mollitia alias quis ducimus officiis ut! Quam aspernatur esse quia.</h4>
+                </div>
             </div>
             <!--Team-->
             <div class="team">
@@ -46,5 +161,8 @@
         </div>
 
     </section>
+
 </body>
+<script src="./JS/script.js"></script>
+
 </html>
