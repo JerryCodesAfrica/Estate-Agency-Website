@@ -106,20 +106,20 @@
         display: flex;
       }
       .t1{
-        transition-duration: 1s;
+        transition-duration: .5s;
       }
       .t1-mobile{
         transform: rotate(40deg);
       }
       .t2{
         width: 20px;
-        transition-duration: .5s;
+        transition-duration: .4s;
       }
       .t2-mobile{
         width: 0;
       }
       .t3{
-        transition-duration: 1s;
+        transition-duration: .5s;
       }
       .t3-mobile{
         transform: rotate(-40deg);
@@ -277,7 +277,8 @@
       .header_text{
         padding: 0 15px;
         padding-top: -5px;
-        height: 128px;
+        overflow-y: h;
+        height: 140px;
         position: relative;
         width: 300px;
         font-size: 32px;
