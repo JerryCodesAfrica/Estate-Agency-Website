@@ -1,7 +1,7 @@
-@media screen and (min-width:300px) {
+@media screen and (max-width:500px) {
     :root{
         --green:hsl(143, 63%, 49%);
-        --headerfont:24px;
+        --headerfont:23px;
     }
       *{
         font-family:  'Poppins', sans-serif;
@@ -12,59 +12,308 @@
       nav{
         position: fixed;
         overflow: auto;
-        color: white;
-        padding-top: 10px;
-        margin-top: -18px;
-        backface-visibility: hidden;
-        background-color: white;
-         box-shadow: 1px 2px 15px rgba(100, 100, 100);
-         width: 100%;
-         height: 70px;
-         text-decoration: none;
-          z-index: 200;
+        z-index: 9999;
       }
-     
-      nav ul{
-          margin: 0px 75px;
-          padding: 30px 16px;
-          font: 16px poppins,sans-serif;
-         
+      .title-box-d{
+        display: inline;
+        height: 90px;
       }
-      nav ul li:not(.list1){
-          display: none;
-          position: relative;
+      .title-d{
+        width: 240px;
       }
-      .list1 a{
+      .close-box{
+        display: none;
+      }
+      .close-box2{
+        display: block;
+        position: relative;
+        top: -30px;
+        left: 20pc;
+
+      }
+      .close-button2{
+        width: 30px;
+      }
+      #box-collapse{
+        margin: 0;
+        right: 0;
+        width: 100%;
+        height: 900px;
+        position: fixed;
+        z-index: 9999;
+        left: 40pc;
+        overflow: auto;
+        display: grid;
+      }
+      .row{
+        width: 100%;
+        display: grid;
+      }
+      #kw{
+        padding: 0;
+        margin-right: 0;
+        width: 240px;
+      }
+      .form-group{
+        display: grid;
+        padding: 0;
+        width: 100%;
+      }
+      #form-group2{
+        width: 270px;
+      }
+      #form-group{
+        width: 600px;
+      }
+      .form-control{
+        width: 300px;
+      }
+      .first-column,.second-column,.third-column{
+        display: grid;
+      }
+      .ham-container{
         overflow-y: hidden;
+        background-color: white;
+        padding-right: 0;
+        border-style: none;
+        width: 70px;
+        height: 35px;
+        padding: 5px;
+        display: block;
+        justify-content: space-between;
+        position:relative;
+        top: 20px;
+        left: -10px;
+      }
+      .hm-menu{
+        background-color: black;
+        margin-top: 4px;
+        width: 30px;
+        height: 3px;
+        display: flex;
+      }
+      .hm-menu-mobile{
+        background-color: black;
+        margin-top: -3px;
+        width: 40px;
+        height: 3px;
+        display: flex;
+      }
+      .t1{
+        transition-duration: 1s;
+      }
+      .t1-mobile{
+        transform: rotate(40deg);
+      }
+      .t2{
+        width: 20px;
+        transition-duration: 1.2s;
+      }
+      .t2-mobile{
+        width: 0;
+      }
+      .t3{
+        transition-duration: 1s;
+      }
+      .t3-mobile{
+        transform: rotate(-40deg);
+        /* top: -20px; */
+      }
+      .miss-middle{
+        display: none;
+      }
+      .change1{
+        transform: rotateX(70deg);
+       
+      }
+      /* .hm-menu2{
+        background-color: black;
+        width: 10px;
+        height: 2px;
+        display: flex;
+        position: relative;
+        top: 5px;
+      } */
+      .navigation_menu{
+        overflow-y: hidden;
+        padding: 0;
+        height: 70px;
+      }
+      .nav-container{
+        display: grid;
+        justify-content: center;
+      }
+      .search-mobile{
+        display: flex;
+        float: right;
+        width: 80px;
+        overflow-y: hidden;
+        position: relative;
+        left: 45px;
+        top: -5px;
+      }
+      .list{
+        transition-duration: 1s;
+        text-align: center;
+        overflow-y: hidden;
+        display: grid;
+        position: fixed;
+        padding-bottom: 20px;
+        z-index: 1;
+        width: 100%;
+        height: 200px;
+        left: -450px;
+        top: 62px;
+        background-color: white;
+       
+      }
+       .lister{
+        transition-duration: 1s;
+        overflow-y: hidden;
+        display: grid;
+        position: fixed;
+        z-index: 100;
+        width: 100%;
+        left: 0;
+        top: 62px;
+        background-color: white;
+      } 
+      .lister li{
+        display: block;
+        transition-duration: 1s;
+      }
+      nav ul{
+        padding: 0;
+        margin: 0;
+      }
+      nav ul li{
+        transition: all 1s ease-in-out;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 10px;
+        padding: 0;
+        right: 0;
+        width: 100%;
+      }
+      .list-container{
+        z-index: 9999;
+        position: relative;
+        left: 20px;
+        padding-left: 40px;
+        padding-bottom: 32px;
+        height: 100px;
+        width: 75%;
+      }
+      .list2,.list3,.list4,.list5,.list6{
+        position: relative;
+        top: 20px;
+      }
+      .logo{
+        text-align: center;
+        display: flex;
+        margin-top: -20px;
+        position: relative;
+        top: -30px;
+      }
+
+     
+    .logo-text{
+      width: fit-content;
+      padding-left: 0;
+     position: fixed;
+     left: 120px;
+    }
+      .logo-text{
         font-size: var(--headerfont);
       }
-      #ninja-slider {
-        height: 1000px;
-        padding: 0;
-        margin:0 auto;
+     .list7{
+      display: none;
+     }
+      .active::after{
+        display: none;
+      }
+      .active-mobile::before{
+        content: " ";
+        background-color: var(--green);
+        height: 2px;
+        top: 20px;
+        left: 30px;
+        display: grid;
         position: relative;
-        top: 22px;
-        overflow:hidden;
-        box-sizing:border-box;
+        margin:0 auto;
+        width: 50%;
       }
-      .slider-inner{
-        height: 900px;
+      .logo{
+        margin-top: 40px;
+        padding-top: -0px;
+        display:flex;
+        position: fixed;
+        z-index: 999;
+        margin-left: -60px;
       }
-      #ninja-slider .ns-img {
-        background-size:contain;/*Note: If transitionType is zoom, it will be overridden to cover.*/
-        /*decorate border*/
-        cursor:default;
-        display:inline;
-        position: absolute;
-        width:100%;
-        height: 2000px;
-        background-repeat:no-repeat;
+      .section_about{
+        padding: 10px;
+        margin-top:80px;
       }
-      #ninja-slider .third_img{
-        height: 673px;
+      .header_container{
+        display: grid;
+        padding: 10px;
+        margin-left: 20px;
+        width: 100%;
       }
-      
-      
-      
-    
+      .header_container .header-vl{
+
+        font-size: 12px;
+        width: 100%;
+        text-align: left;
+      }
+      .header_text{
+        padding: 0 15px;
+        padding-top: -5px;
+        height: 124px;
+        position: relative;
+        width: 300px;
+        font-size: 32px;
+      }
+      .img_text_div{
+        margin-top: -100px;
+        padding: 0;
+      }
+      .about-image-1{
+        width: 100%;
+      }
+      .img-text-about{
+        margin-top: -65px;
+        overflow-y: hidden;
+       width: 35%;
+       height: 70px;
+       padding: 10px 20px;
+      }
+      #c-image-about{
+        font-size: 15px;
+      }
+      .container-sec3{
+        display: grid;
+      }
+       #abt-img3{
+        width: 100%;
+        height: 490px;
+      }
+      .sec3-about-content{
+        padding: 20px;
+      }
+      .randomtext2{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        font-size: 18px;
+      }
+      .team{
+        padding: 0 20px;
+      }
+      .team-pics{
+        width: 100%;
+        height: 400px;
+      }
+     
 }

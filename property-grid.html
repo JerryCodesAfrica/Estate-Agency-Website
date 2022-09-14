@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estate Agency</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+</head>
+<body>
+     <!--Navigation menu-->
+     <nav class="navigation_menu">
+      <ul class="list-container">
+          <button href="#" class="ham-container">
+              <span class="hm-menu t1"></span>
+              <span class="hm-menu t2"></span>
+              <span class="hm-menu t3"></span>
+          </button>
+          <span class="logo list1"><a href="#" class="logo-text">Estate<span class="logo-text-2">Agency</span></a></span>
+          <span class="list">
+              <li class=" list2 this"><a href="./Index.html">Home</a></li>
+              <li class="active active-mobile list3 this"><a href="./about.html">About</a></li>
+              <li class="list4 this"><a href="./property-grid.html">Property</a></li>
+              <li class="list5 this"><a href="#">Pages</a></li>
+              <li class="list6 this"><a href="./contact.html ">Contact</a></li>
+          </span>
+          <a href="#" class="search-mobile"><img src="./img/Search-btn.svg" alt="" class="btn-moblie" style="width:25px;"></a>
+          <li class="list7"><a href="#" class="searchbtn1"><img src="./img/Search-btn.svg" alt="" class="img_list7" id="img_list7"></a></li>
+      </ul>
+  </nav>
+
+  <div class="box-collapse" id="box-collapse">
+    <div class="title-box-d">
+        <h3 class="title-d">Search Property</h3>
+        <span class="close-box"><a href="#" class="clickclose"><img src="./img/close_FILL0_wght400_GRAD0_opsz48.svg"
+                    alt="" class="close-button1"></a></span>
+    <span class="close-box2"><a href="#" class="clickclose2"><img src="./img/close_FILL0_wght400_GRAD0_opsz48.svg"
+                           alt="" class="close-button2"></a></span>
+    </div>
+    <div class="box-collapse-wrap">
+        <form class="form-a">
+            <div class="row">
+                <div class="col-md-6 mb-2">
+                    <div class="form-group" id="form-group2">
+                        <label for="Type" class="keyword">Keyword</label>
+                        <input type="text" class="kw" id="kw" placeholder="Keyword">
+                    </div>
+                </div>
+                <div class="first-column">
+                    <div class="col-md mb-2">
+                        <div class="form-group" id="form-group">
+                            <label for="Type">Type</label>
+                            <select class="form-control" id="Type">
+                                <option>All Type</option>
+                                <option>For Rent</option>
+                                <option>For Sale</option>
+                                <option>Open House</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-2">
+                        <div class="form-group" id="form-group">
+                            <label for="city">City</label>
+                            <select class="form-control form-control-lg form-control-a" id="city">
+                                <option>All City</option>
+                                <option>Alabama</option>
+                                <option>Arizona</option>
+                                <option>California</option>
+                                <option>Colorado</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="second-column">
+                    <div class="col-md-6 mb-2">
+                        <div class="form-group" id="form-group">
+                            <label for="bedrooms">Bedrooms</label>
+                            <select class="form-control form-control-lg form-control-a" id="bedrooms">
+                                <option>Any</option>
+                                <option>01</option>
+                                <option>02</option>
+                                <option>03</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-2">
+                        <div class="form-group" id="form-group">
+                            <label for="garages">Garages</label>
+                            <select class="form-control form-control-lg form-control-a" id="garages">
+                                <option>Any</option>
+                                <option>01</option>
+                                <option>02</option>
+                                <option>03</option>
+                                <option>04</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="third-column">
+                    <div class="col-md-6 mb-2">
+                        <div class="form-group">
+                            <label for="bathrooms">Bathrooms</label>
+                            <select class="form-control form-control-lg form-control-a" id="bathrooms">
+                                <option>Any</option>
+                                <option>01</option>
+                                <option>02</option>
+                                <option>03</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-2">
+                        <div class="form-group">
+                            <label for="price">Min Price</label>
+                            <select class="form-control form-control-lg form-control-a" id="price">
+                                <option>Unlimite</option>
+                                <option>$50,000</option>
+                                <option>$100,000</option>
+                                <option>$150,000</option>
+                                <option>$200,000</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <button type="submit" class="btn-sp btn-b">Search Property</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+    <!--  -->
+    <div class="section_about">
+      <div class="header_container">
+          <div class="header-vl">
+              <div>
+                  <h1 class="header_text">Our Amazing Properties <br><span class="g-p">Grid properties</span></h1>
+              </div>
+          </div>
+          <div class="home-about">Home &nbsp;<span class="about-about">/&nbsp;Property</span></div>
+     </div>
+    </div>
+    <div class="property">
+      <div class="select-box">
+        <select  id="select-box-box ">
+          <option value="default">All</option>
+          <option value="">For Rent</option>
+          <option value="">For Sale</option>
+          <option value="">New to Old</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  
+    <script src="./lib/jquery/jquery.min.js"></script>
+    <script src="./JS/script.js"></script>
+</body>
+</html>

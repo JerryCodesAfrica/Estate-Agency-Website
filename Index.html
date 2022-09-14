@@ -6,176 +6,146 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mobile.css">
     <title>Real Estate website</title>
 </head>
 
 <body>
-    <!--Navigation menu-->
     <nav class="navigation_menu">
         <ul class="list-container">
-            <li class="logo list1"><a href="#" class="logo-text">Estate<span class="logo-text-2">Agency</span></a></li>
-            <li class="list2 active"><a href="./Index.html">Home</a></li>
-            <li class="list3"><a href="./about.html">About</a></li>
-            <li class="list4"><a href="#">Property</a></li>
-            <li class="list5"><a href="#">Pages</a></li>
-            <li class="list6"><a href="#">Contact</a></li>
-            <li class="list7"><a href="#" class="searchbtn1"><img src="./img/Search-btn.svg" alt="" class="img_list7"></a></li>
+            <button href="#" class="ham-container">
+                <span class="hm-menu t1"></span>
+                <span class="hm-menu t2"></span>
+                <span class="hm-menu t3"></span>
+            </button>
+            <span class="logo list1"><a href="#" class="logo-text">Estate<span class="logo-text-2">Agency</span></a></span>
+            <span class="list">
+                <li class="active active-mobile list2 this"><a href="./Index.html">Home</a></li>
+                <li class=" list3 this"><a href="./about.html">About</a></li>
+                <li class="list4 this"><a href="./property-grid.html">Property</a></li>
+                <li class="list5 this"><a href="#">Pages</a></li>
+                <li class="list6 this"><a href="./contact.html ">Contact</a></li>
+            </span>
+            <a href="#" class="search-mobile"><img src="./img/Search-btn.svg" alt="" class="btn-moblie" style="width:25px;"></a>
+            <li class="list7"><a href="#" class="searchbtn1"><img src="./img/Search-btn.svg" alt="" class="img_list7" id="img_list7"></a></li>
         </ul>
-        <div class="search-menu">
-            <div class="click-closed"></div>
-  <!--/ Form Search Star /-->
-  </div>
     </nav>
-    <div class="box-collapse">
+    <div class="box-collapse" id="box-collapse">
         <div class="title-box-d">
-          <h3 class="title-d">Search Property</h3>
-          <span class="close-box"><a href="#" class="clickclose"><img src="./img/close_FILL0_wght400_GRAD0_opsz48.svg" alt="" class="close-button1"></a></span>
+            <h3 class="title-d">Search Property</h3>
+            <span class="close-box"><a href="#" class="clickclose"><img src="./img/close_FILL0_wght400_GRAD0_opsz48.svg"
+                        alt="" class="close-button1"></a></span>
+        <span class="close-box2"><a href="#" class="clickclose2"><img src="./img/close_FILL0_wght400_GRAD0_opsz48.svg"
+                               alt="" class="close-button2"></a></span>
         </div>
         <div class="box-collapse-wrap">
-          <form class="form-a">
-            <div class="row">
-                <div class="col-md-6 mb-2">
-                    <div class="form-group">
-                        <label for="Type" class="keyword">Keyword</label>
-                        <input type="text" class="kw" placeholder="Keyword">
+            <form class="form-a">
+                <div class="row">
+                    <div class="col-md-6 mb-2">
+                        <div class="form-group" id="form-group2">
+                            <label for="Type" class="keyword">Keyword</label>
+                            <input type="text" class="kw" id="kw" placeholder="Keyword">
+                        </div>
+                    </div>
+                    <div class="first-column">
+                        <div class="col-md mb-2">
+                            <div class="form-group" id="form-group">
+                                <label for="Type">Type</label>
+                                <select class="form-control" id="Type">
+                                    <option>All Type</option>
+                                    <option>For Rent</option>
+                                    <option>For Sale</option>
+                                    <option>Open House</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-2">
+                            <div class="form-group" id="form-group">
+                                <label for="city">City</label>
+                                <select class="form-control form-control-lg form-control-a" id="city">
+                                    <option>All City</option>
+                                    <option>Alabama</option>
+                                    <option>Arizona</option>
+                                    <option>California</option>
+                                    <option>Colorado</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="second-column">
+                        <div class="col-md-6 mb-2">
+                            <div class="form-group" id="form-group">
+                                <label for="bedrooms">Bedrooms</label>
+                                <select class="form-control form-control-lg form-control-a" id="bedrooms">
+                                    <option>Any</option>
+                                    <option>01</option>
+                                    <option>02</option>
+                                    <option>03</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-2">
+                            <div class="form-group" id="form-group">
+                                <label for="garages">Garages</label>
+                                <select class="form-control form-control-lg form-control-a" id="garages">
+                                    <option>Any</option>
+                                    <option>01</option>
+                                    <option>02</option>
+                                    <option>03</option>
+                                    <option>04</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="third-column">
+                        <div class="col-md-6 mb-2">
+                            <div class="form-group">
+                                <label for="bathrooms">Bathrooms</label>
+                                <select class="form-control form-control-lg form-control-a" id="bathrooms">
+                                    <option>Any</option>
+                                    <option>01</option>
+                                    <option>02</option>
+                                    <option>03</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-2">
+                            <div class="form-group">
+                                <label for="price">Min Price</label>
+                                <select class="form-control form-control-lg form-control-a" id="price">
+                                    <option>Unlimite</option>
+                                    <option>$50,000</option>
+                                    <option>$100,000</option>
+                                    <option>$150,000</option>
+                                    <option>$200,000</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <button type="submit" class="btn-sp btn-b">Search Property</button>
                     </div>
                 </div>
-            <div class="first-column">
-              <div class="col-md mb-2">
-                <div class="form-group">
-                  <label for="Type">Type</label>
-                  <select class="form-contro" id="Type">
-                    <option>All Type</option>
-                    <option>For Rent</option>
-                    <option>For Sale</option>
-                    <option>Open House</option>
-                  </select>
-                </div>
-              </div>
-              <div class="col-md-6 mb-2">
-                <div class="form-group">
-                  <label for="city">City</label>
-                  <select class="form-control form-control-lg form-control-a" id="city">
-                    <option>All City</option>
-                    <option>Alabama</option>
-                    <option>Arizona</option>
-                    <option>California</option>
-                    <option>Colorado</option>
-                  </select>
-                </div>
-              </div>
-            </div>
-            <div class="second-column">
-              <div class="col-md-6 mb-2">
-                <div class="form-group">
-                  <label for="bedrooms">Bedrooms</label>
-                  <select class="form-control form-control-lg form-control-a" id="bedrooms">
-                    <option>Any</option>
-                    <option>01</option>
-                    <option>02</option>
-                    <option>03</option>
-                  </select>
-                </div>
-              </div>
-              <div class="col-md-6 mb-2">
-                <div class="form-group">
-                  <label for="garages">Garages</label>
-                  <select class="form-control form-control-lg form-control-a" id="garages">
-                    <option>Any</option>
-                    <option>01</option>
-                    <option>02</option>
-                    <option>03</option>
-                    <option>04</option>
-                  </select>
-                </div>
-              </div>
-            </div>
-            <div class="third-column">
-              <div class="col-md-6 mb-2">
-                <div class="form-group">
-                  <label for="bathrooms">Bathrooms</label>
-                  <select class="form-control form-control-lg form-control-a" id="bathrooms">
-                    <option>Any</option>
-                    <option>01</option>
-                    <option>02</option>
-                    <option>03</option>
-                  </select>
-                </div>
-              </div>
-              <div class="col-md-6 mb-2">
-                <div class="form-group">
-                  <label for="price">Min Price</label>
-                  <select class="form-control form-control-lg form-control-a" id="price">
-                    <option>Unlimite</option>
-                    <option>$50,000</option>
-                    <option>$100,000</option>
-                    <option>$150,000</option>
-                    <option>$200,000</option>
-                  </select>
-                </div>
-              </div>
-            </div>
-              <div class="col-md-12">
-                <button type="submit" class="btn-sp btn-b">Search Property</button>
-              </div>
-            </div>
-          </form>
+            </form>
         </div>
     </div>
 
-
-    <div id="ninja-slider">
-        <div class="slider-inner">
-            <ul style="padding-top: 66.6667%; height: 0px;">
-                <li class="sl-cl2" style="left: 0px; z-index: 0;">
-                    <a class="ns-img first_img" href="img/slide-1.jpg">
-                        <div class="carousel_info">
-                            <h4 class="ctext">Doral, &nbsp; Florida <br>78345</h4>
-                            <div class="container_text">
-                                <h2 class="ctext2"><span class="num">204</span>&nbsp; MOUNT <br> OLIVE ROAD TWO</h2>
-                                <h1 class="ctext3">Rent|$ &nbsp;12.000</h1>
-                            </div>
-                        </div>
-                    </a>
-                </li>
-                <li class="ns-show sl-sl2" style="z-index: 1; left: 0px;">
-                    <a class="ns-img second_img" href="img/slide-2.jpg">
-                        <div class="carousel_info">
-                            <h4 class="ctext">Doral, &nbsp; Florida <br>78345</h4>
-                            <div class="container_text">
-                                <h2 class="ctext2"><span class="num">204</span>&nbsp; MOUNT <br> OLIVE ROAD TWO</h2>
-                                <h1 class="ctext3">Rent|$ &nbsp;12.000</h1>
-                            </div>
-                        </div>
-                    </a>
-                </li>
-                <li style="z-index: -1; left: 0px;" class="">
-                    <a href="/"><img class="ns-img third_img" src="img/slide-3.jpg" style="cursor:pointer;">
-                        <div class="carousel_info">
-                            <h4 class="ctext">Doral, &nbsp; Florida <br>78345</h4>
-                            <div class="container_text">
-                                <h2 class="ctext2"><span class="num">204</span>&nbsp; MOUNT <br> OLIVE ROAD TWO</h2>
-                                <h1 class="ctext3">Rent|$ &nbsp;12.000</h1>
-                            </div>
-                        </div>
-                    </a>
-                </li>
-            </ul>
-            <div id="ninja-slider-pager">
-                <a rel="0" class="">1</a>
-                <a rel="1" class="active">2</a>
-                <a rel="2" class="">3</a>
-            </div>
-            <div id="ninja-slider-prev" class="">
-                <div>2 ∕ 4</div>
-            </div>
-            <div id="ninja-slider-next" class="">
-                <div>2 ∕ 4</div>
-            </div>
-            <div id="ninja-slider-pause-play" class=""></div>
+    <!-- carousel slider -->
+    <div id="carousel-silder">
+        <div class="slider-contain">
+            <div class="slider-content"></div>
+            <img src="./img/slide-1.jpg" alt="" srcset="">
+        </div>
+        <div class="slider-contain">
+            <div class="slider-content"></div>
+            <img src="./img/slide-2.jpg" alt="" srcset="">
+        </div>
+        <div class="slider-contain">
+            <div class="slider-content"></div>
+            <img src="./img/slide-3.jpg" alt="" srcset="">
         </div>
     </div>
+   
     <!--end-->
 
     <!--Our services-->
@@ -394,17 +364,8 @@
          </div>
     </footer>
     <div id="preloader"></div>
+    <script src="./lib/jquery/jquery.min.js"></script>
     <script src="./JS/script.js"></script>
-    <script src="./JS/ninja-slider.js"></script>
-    <script src="./lib/jquery/jquery.min.js">
-         $(window).on('load', function () {
-        if ($('#preloader').length) {
-          $('#preloader').delay(1000).fadeOut('slow', function () {
-            $(this).remove();
-          });
-        }
-      });
-    </script>
 </body>
 
 </html>

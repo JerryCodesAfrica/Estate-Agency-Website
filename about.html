@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mobile.css">
     <title>Estate Agency</title>
+    
 </head>
 
 <body>
@@ -14,36 +16,45 @@
     <!--Navigation menu-->
     <nav class="navigation_menu">
         <ul class="list-container">
-            <li class="logo list1"><a href="#" class="logo-text">Estate<span class="logo-text-2">Agency</span></a></li>
-            <li class="list2"><a href="./Index.html">Home</a></li>
-            <li class="list3"><a href="./about.html">About</a></li>
-            <li class="list4"><a href="#">Property</a></li>
-            <li class="list5"><a href="#">Pages</a></li>
-            <li class="list6"><a href="#">Contact</a></li>
-            <li class="list7"><a href="#" class="searchbtn1"><img src="./img/Search-btn.svg" alt=""
-                        class="img_list7"></a></li>
+            <button href="#" class="ham-container">
+                <span class="hm-menu t1"></span>
+                <span class="hm-menu t2"></span>
+                <span class="hm-menu t3"></span>
+            </button>
+            <span class="logo list1"><a href="#" class="logo-text">Estate<span class="logo-text-2">Agency</span></a></span>
+            <span class="list">
+                <li class=" list2 this"><a href="./Index.html">Home</a></li>
+                <li class="active active-mobile list3 this"><a href="./about.html">About</a></li>
+                <li class="list4 this"><a href="./property-grid.html">Property</a></li>
+                <li class="list5 this"><a href="#">Pages</a></li>
+                <li class="list6 this"><a href="./contact.html ">Contact</a></li>
+            </span>
+            <a href="#" class="search-mobile"><img src="./img/Search-btn.svg" alt="" class="btn-moblie" style="width:25px;"></a>
+            <li class="list7"><a href="#" class="searchbtn1"><img src="./img/Search-btn.svg" alt="" class="img_list7" id="img_list7"></a></li>
         </ul>
     </nav>
-    <div class="box-collapse">
+    <div class="box-collapse" id="box-collapse">
         <div class="title-box-d">
             <h3 class="title-d">Search Property</h3>
             <span class="close-box"><a href="#" class="clickclose"><img src="./img/close_FILL0_wght400_GRAD0_opsz48.svg"
                         alt="" class="close-button1"></a></span>
+        <span class="close-box2"><a href="#" class="clickclose2"><img src="./img/close_FILL0_wght400_GRAD0_opsz48.svg"
+                               alt="" class="close-button2"></a></span>
         </div>
         <div class="box-collapse-wrap">
             <form class="form-a">
                 <div class="row">
                     <div class="col-md-6 mb-2">
-                        <div class="form-group">
+                        <div class="form-group" id="form-group2">
                             <label for="Type" class="keyword">Keyword</label>
-                            <input type="text" class="kw" placeholder="Keyword">
+                            <input type="text" class="kw" id="kw" placeholder="Keyword">
                         </div>
                     </div>
                     <div class="first-column">
                         <div class="col-md mb-2">
-                            <div class="form-group">
+                            <div class="form-group" id="form-group">
                                 <label for="Type">Type</label>
-                                <select class="form-contro" id="Type">
+                                <select class="form-control" id="Type">
                                     <option>All Type</option>
                                     <option>For Rent</option>
                                     <option>For Sale</option>
@@ -52,7 +63,7 @@
                             </div>
                         </div>
                         <div class="col-md-6 mb-2">
-                            <div class="form-group">
+                            <div class="form-group" id="form-group">
                                 <label for="city">City</label>
                                 <select class="form-control form-control-lg form-control-a" id="city">
                                     <option>All City</option>
@@ -66,7 +77,7 @@
                     </div>
                     <div class="second-column">
                         <div class="col-md-6 mb-2">
-                            <div class="form-group">
+                            <div class="form-group" id="form-group">
                                 <label for="bedrooms">Bedrooms</label>
                                 <select class="form-control form-control-lg form-control-a" id="bedrooms">
                                     <option>Any</option>
@@ -77,7 +88,7 @@
                             </div>
                         </div>
                         <div class="col-md-6 mb-2">
-                            <div class="form-group">
+                            <div class="form-group" id="form-group">
                                 <label for="garages">Garages</label>
                                 <select class="form-control form-control-lg form-control-a" id="garages">
                                     <option>Any</option>
@@ -121,6 +132,7 @@
             </form>
         </div>
     </div>
+
     <!--body text start-->
     <section class="section_about">
         <div class="header_container">
@@ -134,35 +146,48 @@
         <div class="img_text_div">
             <div class="container-div-about">
                 <img src="./img/slide-about-1.jpg" alt="" class="about-image-1">
-                <h3 class="img-text-about">Estate Agency<span class="hyphen">__</span> <br> since 2017<br><span
+                <h3 class="img-text-about" id="c-image-about">Estate Agency<span class="hyphen">__</span> <br> since 2017<br><span
                         class="img-text-about-1">Art&creative</span></h3>
             </div>
             <div class="second-about-section">
 
             </div>
             <div class="container-sec3">
-                <div class="sec3-about-img"><img src="./img/about-2.jpg" alt="" class="abt-img3"></div>
-                <div>
-                    <h3 class="exclusive">EstateAgnecy Exclusive Property</h3>
+                <div class="sec3-about-img"><img src="./img/about-2.jpg" alt="" class="abt-img3" id="abt-img3"></div>
+                <div class="sec3-about-content">
+                    <h3 class="exclusive">Estate Agency <div class="about-sta">About-Us</div>
+                    </h3>
+                    <h4 class="randomtext"></h4>
+                    <h5 class="randomtext2">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum placeat facilis atque, tempore
+                        ipsum dolores quae fugiat voluptatem assumenda tenetur aspernatur at animi dolorem consectetur
+                        porro molestiae quasi omnis excepturi ratione cumque illum? Autem ratione minima dolor
+                        recusandae perferendis unde.
+                        <br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quidem dicta accusantium optio
+                        laborum hic blanditiis mollitia reiciendis quod? Enim nam repellendus deserunt minus, ut iste
+                        maxime sit commodi veniam?
+                    </h5>
                 </div>
                 <div>
-                    <h4 class="randomtext">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis ipsum nostrum
-                        cum temporibus mollitia alias quis ducimus officiis ut! Quam aspernatur esse quia.</h4>
+
                 </div>
             </div>
             <!--Team-->
             <div class="team">
-                <h2 class="team_header">Meet our team</h2>
+                <h2 class="team_header">Meet Our Team</h2>
                 <div class="team_pictures">
-                    <img src="./img/agent-1.jpg" alt="">
+                    <img src="./img/agent-4.jpg" alt="" class="team-pics">
+                    <img src="./img/agent-5.jpg" alt="" class="team-pics">
+                    <img src="./img/agent-6.jpg" alt="" class="team-pics">
                 </div>
 
             </div>
         </div>
 
     </section>
-
+    <script src="./lib/jquery/jquery.min.js"></script>  
+    <script src="./JS/script.js"></script>
+   
 </body>
-<script src="./JS/script.js"></script>
-
 </html>

@@ -1,34 +1,7 @@
 // Latest properties slide
 // Latest-properties
- var button1 = document.querySelector(".ps1");
- var button2 = document.querySelector(".ps2");
- var slidepageleft = document.querySelector(".p1");
- var slidepageright = document.querySelector(".p4p");
- function slideleft(){
-    button2.classList.remove("ps2");
-    button2.classList.add("active");
-    button1.classList.add("ps2");
-    slidepageleft.style.width = "0";
-    slidepageright.style.width = "720px"
-    //  slidepageleft.style.display = "none";
-     slidepageright.style.display = "inline";
-    
- } 
- button2.addEventListener('click',slideleft);
-//  
-function slideright(){
-    button1.classList.remove("ps2");
-    button1.classList.add("active");
-    button2.classList.add("ps2");
-    slidepageleft.style.width = "720px";
-    slidepageright.style.width = "0";
-    //  slidepageleft.style.display = "none";
-     slidepageright.style.display = "none";
-    
- } 
- button1.addEventListener('click',slideright);
 // 
-// search-function
+// search-function desktop
 var searchbtn = document.querySelector(".searchbtn1");
 var searchmenu = document.querySelector(".box-collapse");
 var closesearch = document.querySelector(".clickclose");
@@ -42,5 +15,46 @@ function closesearchmenu(){
     searchmenu.style.left = "88pc";
     searchmenu.style.transition = "1s";
 }
-
 closesearch.addEventListener('click',closesearchmenu);
+
+
+
+
+// search function mobile
+var searchbtn2 = document.querySelector(".search-mobile");
+var searchmenu2 = document.querySelector("#box-collapse");
+var closesearch2 = document.querySelector(".clickclose2");
+//display menu
+function displaysearchmenu2(){
+    searchmenu2.style.left = "0";
+    searchmenu2.style.transition = "1s";
+}
+searchbtn2.addEventListener('click',displaysearchmenu2);
+//
+
+function closesearchmenu2(){
+    searchmenu2.style.left = "40pc";
+    searchmenu2.style.transition = "1s";
+}
+
+closesearch2.addEventListener('click',closesearchmenu2);
+
+
+
+
+
+// hamburger menu
+var displaysearchmenumobile;
+var hm = document.querySelector(".ham-container");
+var menu2 = document.querySelector(".list");
+var t1 = document.querySelector(".t1");
+var t2 = document.querySelector(".t2");
+var t3 = document.querySelector(".t3");
+$(".ham-container").click(function (e) { 
+    e.preventDefault();    
+    $(".list").toggleClass("lister");  
+    $(".t1").toggleClass("t1-mobile");
+    $(".t2").toggleClass("t2-mobile");
+    $(".t3").toggleClass("t3-mobile");
+    $(".hm-menu").toggleClass("hm-menu-mobile");
+});
