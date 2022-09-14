@@ -1108,7 +1108,7 @@ input:not(.kw) {
   /* vertical line */
   position: absolute;
   border-left: 3px solid #2eca6a;
-  height: 130px;
+  height: 150px;
   padding-left: 40px;
   /* ====== */
   margin-top: -5px;
