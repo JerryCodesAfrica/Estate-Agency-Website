@@ -46,6 +46,9 @@
         overflow: auto;
         display: grid;
       }
+      .box-collapse-wrap{
+        padding-bottom: 200px;
+      }
       .row{
         width: 100%;
         display: grid;
