@@ -28,7 +28,7 @@
         display: block;
         position: relative;
         top: -30px;
-        left: 20pc;
+        left: 18pc;
 
       }
       .close-button2{
@@ -47,6 +47,7 @@
         display: grid;
       }
       .box-collapse-wrap{
+        padding-left: -20px;
         padding-right: 10px;
         padding-bottom: 200px;
       }
