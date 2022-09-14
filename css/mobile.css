@@ -35,7 +35,6 @@
         width: 30px;
       }
       #box-collapse{
-        padding-bottom: 400px;
         margin: 0;
         right: 0;
         width: 100%;
@@ -43,10 +42,12 @@
         position: fixed;
         z-index: 9999;
         left: 40pc;
+        overflow-y: scroll;
         overflow: auto;
         display: grid;
       }
       .box-collapse-wrap{
+        padding-right: 10px;
         padding-bottom: 200px;
       }
       .row{
