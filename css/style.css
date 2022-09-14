@@ -1101,14 +1101,14 @@ input:not(.kw) {
 .header_container {
   display: flex;
   justify-content: space-between;
-  margin-bottom: -20px;
+  margin-bottom: 100px;
 }
 
 .header_text {
   /* vertical line */
   position: absolute;
   border-left: 3px solid #2eca6a;
-  height: 100px;
+  height: 130px;
   padding-left: 40px;
   /* ====== */
   margin-top: -5px;
@@ -1170,10 +1170,10 @@ input:not(.kw) {
 .exclusive::after {
   content: "";
   position: absolute;
-  width: 30%;
+  width: 26%;
   height: 3px;
   background-color: #2eca6a;
-  top: 75px;
+  top: 90px;
 }
 
 .randomtext {
