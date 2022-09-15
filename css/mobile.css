@@ -354,15 +354,15 @@
         margin: 0;
         top: 0;
         margin-top: 0;
-        width: 70%;
+        width: 60%;
         height: 350px;
         filter :contrast(1.2);
         transition-duration: 1s;
       }
       #card1{
-        padding: 10px 10px;
+        padding: 10px 30px;
         overflow-y: hidden;
-        width: 500px;
+        width: 400px;
         height: 530px;
       }
       .last3{
@@ -410,7 +410,7 @@
         background-color: #2eca6a;
         margin-top: -39px;
         display: block;
-        width: 310px;
+        width: 260px;
         height: 55px;
         overflow-y: hidden;
         top: -16pc;
@@ -431,14 +431,14 @@
         margin-left: -30px;
       }
       .end-card-1 li{
-        padding-left: 20px;
-        margin-right:7px;
+        padding-left: 5px;
+        margin-right:4px;
         display: inline;
       }
       .end-card-2 li{
-        padding-left: 26px;
+        padding-left: 20px;
         display: inline;
-        margin-right: 14px;
+        margin-right: 5px;
       }
       .end-card li{
         list-style-type: none;
