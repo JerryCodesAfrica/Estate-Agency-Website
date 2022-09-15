@@ -58,3 +58,11 @@ $(".ham-container").click(function (e) {
     $(".t3").toggleClass("t3-mobile");
     $(".hm-menu").toggleClass("hm-menu-mobile");
 });
+$(".property-image").hover(function () {
+        // over
+        $(".end-card").toggleClass("end-card-over");
+    }, function () {
+        // out
+        $(".end-card").removeClass("end-card-over");
+    }
+);
