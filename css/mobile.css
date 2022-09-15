@@ -113,7 +113,16 @@
         position: relative;
         font-size: 45px;
         top: -100px;
-        left: 30px;
+        left: 10px;
+      }
+      .service-header:after{
+        content: "";
+        position: absolute;
+        top: 65px;
+        left: -30px;
+        width: 40%;
+        height: 3px;
+        background-color: #2ECA6A;
       }
       
       .section-card {
@@ -124,8 +133,8 @@
       .card .grid-1 {
         margin-top: 30px;
         border-style: ridge;
-        border-width: 1px;
-        border-color: gray;
+        border-width: 2px;
+        border-color: #2ECA6A;
         display: grid;
         width: 250px;
         height: 290px;
