@@ -110,6 +110,7 @@
       }
       
       .service-header {
+        height: 80px;
         position: relative;
         font-size: 45px;
         top: -100px;
