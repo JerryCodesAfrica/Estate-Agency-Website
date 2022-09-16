@@ -25,9 +25,9 @@
         font-size: 18px;
       }
       .container_text:not(.ctext3){
-        width: 350px;
+        width: 340px;
         margin-top: 100px;
-        font-size: 26px;
+        font-size: 30px;
       }
       .num{
         color: #2ECA6A;
@@ -35,7 +35,7 @@
       .ctext3{
         text-align: center;
         width: 200px;
-        margin-top: 40px;
+        margin-top: 50px;
         font-size: 23px;
         padding: 12px 6px 12px 6px;
         border-color: var(--green);
