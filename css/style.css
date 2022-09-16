@@ -403,6 +403,7 @@ input:not(.kw) {
   /*======================*/
 
 .section-services {
+  background-color: #2ECA6A;
   padding: 150px 60px;
   margin-top: 120px;
   height: 100%;
@@ -414,19 +415,35 @@ input:not(.kw) {
   top: -100px;
   left: 60px;
 }
+.service-header::after{
+  content: " ";
+  position: absolute;
+  background-color: white;
+  width:150px;
+  top: 60px;
+  left: -20px;
+  height: 3px;
+}
 
 .section-card {
   display: flex;
   justify-content: space-evenly;
 }
+#ls-service{
+  color: white;
+  margin-left: 20px;
+  font-size: 50px;
+  font-weight: 300;
+}
 
 .card .grid-1 {
   border-style: ridge;
-  border-width: 1px;
-  border-color: gray;
+  border-width: 2px;
+  border-color: white;
+  clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
   display: grid;
   width: 320px;
-  height: 250px;
+  height: 280px;
   padding: 20px;
   border-radius: 20px;
 }
@@ -437,6 +454,7 @@ input:not(.kw) {
 }
 
 .icon {
+  text-align: center;
   font-size: 40px;
   margin-bottom: 20px;
   font-weight: 600;
@@ -1126,9 +1144,9 @@ input:not(.kw) {
 .testemonial-grid-block .testemonial-grid-block-text {
   text-align: left;
   border-radius: 20px;
-  width: 400px;
-  height: 75px;
-  padding: 2pc 3pc 0 3pc;
+  width: 450px;
+  height: 77px;
+  padding: 2pc 3pc 1pc 3pc;
   background-color: #f3f3f3;
   font-style: italic;
   font-weight: 100;
@@ -1521,7 +1539,6 @@ margin-right: 20px;
   'opsz' 48
 }
 .material-symbols-outlined{
-  height: 20px;
   overflow-y: hidden;
   color: #2ECA6A;
 }
