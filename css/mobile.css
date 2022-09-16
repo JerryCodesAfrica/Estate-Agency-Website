@@ -190,6 +190,7 @@
       }
       
       .card .grid-1 h4 {
+        margin-top: -10px;
         color: grey;
         font-weight: 200;
       }
