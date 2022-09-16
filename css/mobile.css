@@ -183,9 +183,9 @@
         border-width: 2px;
         border-color: white;
         display: grid;
-        width: 260px;
+        width: 256px;
         height: 300px;
-        padding: 22px;
+        padding: 21px;
         border-radius: 10px;
       }
       
