@@ -636,5 +636,38 @@
       .end-card li{
         list-style-type: none;
       }
+      .agents-heading{
+        text-align: center;
+      }
+      .container_div_agents {
+        padding: 0;
+        margin-top: 60px;
+        display: grid;
+        transition-duration: .5s;
+      }
+      
+      .container_div_agents .agents-heading {
+        font-size: var(--headerfont);
+      }
+      
+      .container_div_agents .agents-container-card {
+        margin-top: 90px;
+        display: block;
+      }
+      .agents-container-card{
+        padding-left: 10px;
+      }
+      .agents-container-card div img{
+        width: 500px;
+      }
+      #agents{
+        width: 100%;
+        padding: 0;
+      }
+      .a1-img,.a2-img,.a3-img,.a4-img{
+        padding: 0;
+        margin: 0;
+      }
+      
      
 }
