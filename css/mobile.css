@@ -699,5 +699,15 @@
         width: 550px;
         height: 400px;
       }
+      .testemonial-grid-block .testemonial-grid-block-text {
+        text-align: left;
+        border-radius: 20px;
+        width: 360px;
+        height: 90px;
+        padding: 1pc 3pc 0 1pc;
+        background-color: #f3f3f3;
+        font-style: italic;
+        font-weight: 100;
+      }
       
 }
