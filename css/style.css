@@ -1513,3 +1513,15 @@ margin-right: 20px;
 .description-footer{
   width: 200px;
 }
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' var(--green),
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+.material-symbols-outlined{
+  height: 20px;
+  overflow-y: hidden;
+  color: #2ECA6A;
+}
