@@ -680,6 +680,7 @@
       .testemonial-header .testemonial-header-text {
         font-size: var(--headerfont);
         position: relative;
+        text-align: center;
         top: -5px;
       }
       
@@ -696,18 +697,55 @@
       
       .testemonial-grid-body .testemonial-grid-image {
         background-size: cover;
-        width: 550px;
-        height: 400px;
+        width: 100%;
+        height: 300px;
       }
       .testemonial-grid-block .testemonial-grid-block-text {
         text-align: left;
+        margin-top: 20px;
+        margin-bottom: 20px;
         border-radius: 20px;
         width: 360px;
-        height: 90px;
-        padding: 1pc 3pc 0 1pc;
+        height: 105px;
+        padding: 4px 3px 0 10px;
         background-color: #f3f3f3;
         font-style: italic;
         font-weight: 100;
       }
+      footer{
+        margin: 0 auto;
+        background-color:#f3f3f3;
+         padding: 20px 20px; 
       
+      }
+      .footer-top-container{
+        margin: 0 auto;
+        display: block;
+        justify-content: space-between;
+      }
+      .footer-bottom{
+        margin-top: 50px;
+        display: grid;
+        text-align: center;
+      }
+      .menu-foot ul{
+        word-spacing: 10px;
+      }
+      .menu-foot ul li{
+        display: inline;
+      }
+      .menu-foot ul li a {
+        text-decoration: none;
+        color: black;
+      }
+     
+      .grids{
+        position: relative;
+        margin: 0 auto;
+        width: 600px;
+        display: block;
+      }
+      .description-footer{
+        width: 200px;
+      }
 }

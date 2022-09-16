@@ -1480,8 +1480,8 @@ input:not(.kw) {
   list-style-type: none;
 }
 footer{
-  background-color: silver;
-   padding: 100px 140px; 
+  background-color:#f3f3f3;
+   padding: 140px 140px; 
 
 }
 .footer-bottom{
@@ -1501,15 +1501,15 @@ footer{
 }
 .footer-top-container{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .grids{
   position: relative;
-  right: inherit;
+margin-right: 20px;
   margin: 0 auto;
   width: 600px;
   display: grid;
 }
-.decription-footer{
-  width: 100px;
+.description-footer{
+  width: 200px;
 }
