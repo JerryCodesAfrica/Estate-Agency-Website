@@ -169,7 +169,7 @@
         left: -30px;
         width: 40%;
         height: 3px;
-        background-color: #2ECA6A;
+        background-color: white;
       }
       
       .section-card {
@@ -181,7 +181,7 @@
         margin-top: 30px;
         border-style: ridge;
         border-width: 2px;
-        border-color: #2ECA6A;
+        border-color: white;
         display: grid;
         width: 250px;
         height: 290px;
