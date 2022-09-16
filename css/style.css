@@ -249,6 +249,37 @@ input:not(.kw) {
   width: 1000px;
   height: auto;
 } */
+.carousel_info{
+  position: absolute;
+  display: grid;
+  z-index: 200;
+  justify-content: space-between;
+  top: 130px;
+  left: 100px;
+  text-decoration: none;
+  color: white;
+}
+.ctext{
+  font-size: 17px;
+}
+.container_text:not(.ctext3){
+  margin-top: 100px;
+  font-size: 50px;
+}
+.num{
+  color: #2ECA6A;
+}
+.ctext3{
+  text-align: center;
+  width: 200px;
+  margin-top: 90px;
+  font-size: 23px;
+  padding: 12px 6px 12px 6px;
+  border-color: var(--green);
+  border-radius: 25px;
+  border-width: 2px;
+  border-style: groove;
+}
 #carousel {
   overflow-x: hidden;
   top: 100px;
@@ -1447,4 +1478,38 @@ input:not(.kw) {
 }
 .end-card li{
   list-style-type: none;
+}
+footer{
+  background-color: silver;
+   padding: 100px 140px; 
+
+}
+.footer-bottom{
+  margin-top: 50px;
+  display: grid;
+  text-align: center;
+}
+.menu-foot ul{
+  word-spacing: 10px;
+}
+.menu-foot ul li{
+  display: inline;
+}
+.menu-foot ul li a {
+  text-decoration: none;
+  color: black;
+}
+.footer-top-container{
+  display: flex;
+  justify-content: space-around;
+}
+.grids{
+  position: relative;
+  right: inherit;
+  margin: 0 auto;
+  width: 600px;
+  display: grid;
+}
+.decription-footer{
+  width: 100px;
 }
