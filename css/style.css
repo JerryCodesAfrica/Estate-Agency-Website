@@ -350,6 +350,7 @@ input:not(.kw) {
   left: 0;
 }
 .arrow {
+  display: none;
   color: #ffffff;
   height: 25px;
   width: 20px;
