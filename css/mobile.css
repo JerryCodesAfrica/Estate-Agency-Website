@@ -640,12 +640,27 @@
       }
       .agents-heading{
         text-align: center;
+        margin: 0 auto;
       }
-      .container_div_agents {
+      .overall-agent{
+        margin: 0;
+        padding: 0;
+      }
+      .container_div_agents{
+        margin: 0;
+        padding: 0;
+
+      }
+      #container_div_agents {
         padding: 0;
         margin-top: 60px;
         display: grid;
         transition-duration: .5s;
+      }
+      .image-area{
+        padding: 0;
+        margin: 0;
+        margin-bottom: 30px;
       }
       
       .container_div_agents .agents-heading {
