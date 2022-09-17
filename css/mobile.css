@@ -646,6 +646,9 @@
         margin: 0;
         padding: 0;
       }
+      .spec-img{
+        width: 300px;
+      }
       .container_div_agents{
         margin: 0;
         padding: 0;
