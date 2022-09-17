@@ -405,7 +405,6 @@ input:not(.kw) {
 
 .section-services {
   margin-top: 20px;
-  background-color: #2ECA6A;
   padding: 250px 60px;
   height: 80%;
 }
@@ -419,7 +418,7 @@ input:not(.kw) {
 .service-header::after{
   content: " ";
   position: absolute;
-  background-color: white;
+  background-color: #2ECA6A;
   width:150px;
   top: 60px;
   left: -20px;
@@ -431,15 +430,14 @@ input:not(.kw) {
   justify-content: space-evenly;
 }
 #ls-service{
-  color: white;
+  color: #2ECA6A;
   margin-left: 20px;
   font-size: 50px;
   font-weight: 300;
 }
 
 .card .grid-1 {
-  border-style: ridge;
-  border-width: 2px;
+  border-style:none;
   border-color: white;
   clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
   display: grid;
@@ -839,7 +837,8 @@ input:not(.kw) {
   font-size: var(--headerfont);
 }
 .spec-img{
-  width: 400px;
+
+  width: 300px;
   height: 300px;
 }
 
@@ -851,10 +850,9 @@ input:not(.kw) {
 
 .a1-img {
   display: inline;
-  width: 700px;
+  width: 400px;
   height: 400px;
   background: url(../img/agent-1.jpg);
-  background-size: contain;
   overflow-y: hidden;
   background-repeat: no-repeat;
   animation-duration: .5s;
