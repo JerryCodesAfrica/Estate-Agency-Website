@@ -615,7 +615,7 @@
       .end-card-over{
         transition-duration: 2s;
         padding: 10px 20px;
-        background-color: #2eca6a;
+        /* background-color: #2eca6a; */
         margin-top: -39px;
         display: block;
         position: absolute;
