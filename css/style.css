@@ -681,14 +681,9 @@ input:not(.kw) {
 /* =================Properties End=================== */
 
 /* Best Agents */
-.image-area
-{
-	/* top: 50%;
-	left: 50%; */
-	/* transform: translate(-50%, -50%); */
-
+.img-area{
+  margin-left: -40px;
 }
-
 .img-wrapper
 {
 	width: 300px;
@@ -731,16 +726,17 @@ input:not(.kw) {
 
 .img-wrapper h2
 {
+  font-size: 15px;
 	background: #2ECA6A;
 	color: #fff;
 	text-align: center;
 	text-transform: uppercase;
 	margin: 0;
-	padding: 8px 0;
+	padding: 5px 0;
 	position: absolute;
 	bottom: 0;
 	width: 100%;
-	transform: perspective(500px) rotateY(90deg);
+	transform: perspective(1000px) rotateY(100deg);
 	transform-origin: right;
 	transition: 1s;
 }
@@ -800,7 +796,7 @@ input:not(.kw) {
 
 .img-wrapper ul li a
 {
-	color: tomato;
+	color: #2ECA6A;
 	background: rgba(255,255,255,0);
 }
 
@@ -818,22 +814,31 @@ input:not(.kw) {
 .overall-agent{
   margin-top: -100px;
   display: grid;
-  padding: 40px;
+  top: 0;
   width: 100%;
 }
 .agents-heading{
   position: relative;
-  margin-left: 190px;
-  margin-top: 100px;
+  padding-bottom: 20px;
+  
+}
+.agents-heading::before{
+  content: " ";
+  position: absolute;
+  top: 58px;
+  width: 10%;
+  height: 3px;
+  background-color: #2ECA6A;
 }
 .container_div_agents {
-  padding: 10pc 10pc 0 10pc;
+  margin-top: 50px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   transition-duration: .5s;
 }
 
  .agents-heading {
+  margin-left: 110px;
   font-size: var(--headerfont);
 }
 .spec-img{
