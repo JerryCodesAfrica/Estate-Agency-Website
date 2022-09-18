@@ -232,21 +232,24 @@
       #box-collapse{
         margin: 0;
         right: 0;
+        padding: 0;
         width: 100%;
-        height: 900px;
+        height: 950px;
         position: fixed;
         z-index: 9999;
         left: 40pc;
-        overflow-y: scroll;
         overflow: auto;
+        overflow-y: scroll;
+
         display: grid;
       }
       .box-collapse-wrap{
-        padding-left: -20px;
-        padding-right: 10px;
-        padding-bottom: 200px;
+        overflow-y: scroll;
+        padding-bottom: 180px;
       }
       .row{
+        overflow-y: scroll;
+        margin: 0 auto;
         width: 100%;
         display: grid;
       }
