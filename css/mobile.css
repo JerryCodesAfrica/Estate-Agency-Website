@@ -222,8 +222,8 @@
       .close-box2{
         display: block;
         position: relative;
-        top: -30px;
-        left: 18pc;
+        top: -35px;
+        left: 18.6pc;
 
       }
       .close-button2{
@@ -350,7 +350,7 @@
         width: 80px;
         overflow-y: hidden;
         position: relative;
-        left: 45px;
+        left: 48px;
         top: -5px;
       }
       .list{
