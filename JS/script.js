@@ -69,3 +69,11 @@ $(".property-image").hover(function () {
         $(".end-card").removeClass("end-card-over");
     }
 );
+$(".list5").hover(function(){
+   var down = $(".drop-down").css("display");
+    if (down == "none") {
+        $(".drop-down").show("fast");
+    } else {
+        $(".drop-down").hide("slow");
+    }
+})
