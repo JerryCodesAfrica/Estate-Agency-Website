@@ -153,39 +153,36 @@
       .section-services {
         padding: 0;
         margin: 0 auto;
-        display: grid;
         align-items: center;
         margin-top: 120px;
-        height: 100%;
       }
       
       .service-header {
         height: 80px;
         position: relative;
         font-size: 45px;
-        top: -100px;
+        top: 0;
+        text-align: center;
         left: 10px;
       }
       .service-header:after{
         content: "";
         position: absolute;
         top: 65px;
-        left: -30px;
-        width: 40%;
+        left: 70px;
+        width: 30%;
         height: 3px;
-        background-color: white;
+        background-color: #2ECA6A;
       }
       
       .section-card {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        clip-path: none;
       }
       .card .grid-1 {
         margin-top: 30px;
-        border-style: ridge;
         border-width: 2px;
-        border-color: white;
         display: grid;
         width: 256px;
         height: 300px;
@@ -642,8 +639,16 @@
         list-style-type: none;
       }
       .agents-heading{
+        height: 80px;
+        position: relative;
+        font-size: 45px;
+        top: 0;
+        left: 10px;
         text-align: center;
         margin: 0 auto;
+      }
+      .agents-heading::before{
+        width: 30%;
       }
       .overall-agent{
         margin: 0;
