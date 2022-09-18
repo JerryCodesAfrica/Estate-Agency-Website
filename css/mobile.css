@@ -274,6 +274,7 @@
   }
 
   .box-collapse-wrap {
+    z-index: 9999;
     overflow-y: scroll;
     padding-bottom: 180px;
   }
