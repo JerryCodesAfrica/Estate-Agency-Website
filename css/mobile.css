@@ -60,8 +60,15 @@
     animation-duration: .5s;
     transition-duration: .5s;
   }
-
-
+  .properety{
+    margin: 0 auto;
+    margin: 0;
+    padding: 0;
+  }
+#prop-mobile{
+  margin: 0 auto;
+  padding: 0;
+}
   #carousel {
     overflow-x: hidden;
     top: 40px;
@@ -649,9 +656,8 @@
   }
 
   #card1 {
-    padding: 10px 30px;
+    margin: 0 auto;
     overflow-y: hidden;
-    width: 400px;
     height: 530px;
   }
 
