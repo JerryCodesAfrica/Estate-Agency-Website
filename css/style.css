@@ -761,6 +761,12 @@ input:not(.kw) {
 	filter: grayscale(100%);
 	transition: 2s;
 }
+
+.img-wrapper #spec-img-about{
+  filter: none;
+  width: fit-content;
+}
+
 .img-wrapper:hover img
 {
 	filter: grayscale(0%);
