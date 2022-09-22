@@ -581,6 +581,7 @@
     margin: 0 auto;
   }
   #abt-img3 {
+    height: 400px;
     width: fit-content;
     position: relative;
   }
