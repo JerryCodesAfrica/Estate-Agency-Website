@@ -577,10 +577,12 @@
   .container-sec3 {
     display: grid;
   }
-
+  .sec3-about-img{
+    margin: 0 auto;
+  }
   #abt-img3 {
-    width: 100%;
-    height: 490px;
+    width: fit-content;
+    position: relative;
   }
 
   .sec3-about-content {
