@@ -339,6 +339,7 @@
   }
 
   .hm-menu {
+    transition: all 1s;
     background-color: black;
     margin-top: 4px;
     width: 32px;
@@ -347,6 +348,7 @@
   }
 
   .hm-menu-mobile {
+    transition: all 1s;
     background-color: black;
     margin-top: -3px;
     width: 30px;

@@ -75,11 +75,12 @@ nav ul li:not(.list1, .list7):hover::after {
   color: #000000;
 }
 .drop-down{
-  display: grid;
+  transition-duration: 2s;
+  display: none;
   padding: 0;
   padding-top: 20px;
   position:fixed;
-  background-color: white;
+  background-color: transparent;
   box-shadow: 0 0 1px black;
   text-align: center;
   height: 120px;
@@ -91,7 +92,6 @@ nav ul li:not(.list1, .list7):hover::after {
   display: grid;
   padding: 0;
   padding-top: 20px;
-  position:fixed;
   background-color: white;
   box-shadow: 0 0 1px black;
   text-align: center;
@@ -297,16 +297,17 @@ input:not(.kw) {
   display: grid;
   z-index: 200;
   justify-content: space-between;
-  top: 130px;
+  top: 30px;
   left: 100px;
   text-decoration: none;
   color: white;
 }
 .ctext{
+  margin-top: 80px;
   font-size: 17px;
 }
 .container_text:not(.ctext3){
-  margin-top: 100px;
+  margin-top: 90px;
   font-size: 50px;
 }
 .num{
@@ -315,7 +316,7 @@ input:not(.kw) {
 .ctext3{
   text-align: center;
   width: 200px;
-  margin-top: 90px;
+  margin-top: 50px;
   font-size: 23px;
   padding: 12px 6px 12px 6px;
   border-color: var(--green);
@@ -325,8 +326,8 @@ input:not(.kw) {
 }
 #carousel {
   overflow-x: hidden;
-  top: 100px;
-  max-width: 100%;
+  top: 9px;
+  max-width: 95%;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -334,7 +335,7 @@ input:not(.kw) {
 }  
 .slide-indicators {
   position: relative;
-  top: -100px;
+  top: -190px;
   left: 400px;
   display: flex;
   justify-content: center;
@@ -375,7 +376,7 @@ input:not(.kw) {
   display: flex;
   align-items: center;
   height: 100%;
-  gap: 10px;
+  gap: 15px;
   -webkit-overflow-scrolling: touch;
   scroll-behavior: smooth;
 }
