@@ -1754,3 +1754,21 @@ margin-right: 20px;
   margin: 0 auto;
   width: 100%;
 }
+section.contact-form{
+  margin: 0 auto;
+  padding: 40px;
+  display: flex;
+  margin-right: 10px;
+}
+
+.form-div1{
+  display: block;
+}
+div .contact-f{
+  width: 700px;
+}
+ 
+input.form-i-text2{
+  margin-top: 30px;
+  width: 520px;
+}
