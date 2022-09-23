@@ -913,8 +913,73 @@
   }
   .contact{
     margin: -20px;
-    margin-top: 110px;
-    margin-bottom: -30px;
+    margin-top: 50px;
+    position: relative;
+    bottom: -50px;
+    padding: 0;
   }
+
+  section.contact-form{
+    position: relative;
+    top: 50px;
+    margin: 0 auto;
+    height: 900px;
+    padding: 40px;
+    display: grid;
+    justify-content: space-around;
+  }
+
+  .extra-vl{
+    width: 200px;
+    padding: 10px;
+    position: relative;
+    top: -100px;
+    left: 20px;
+    font-weight: 200;
+    margin-top: 0;
+    padding: 0;
+  }
+  
+  .btn-contact{
+   position: relative;
+   top: 45px;
+    width: 100px;
+    color: white;
+    background-color: #000000;
+    text-decoration: none;
+    padding:20px 100px;
+  }
+  
+  .form-div1{
+    display: block;
+  }
+  
+  .form-div2{
+    display: block;
+  }
+  .sayhello{
+    display: grid;
+  }
+  .contact-info{
+    margin-bottom: 50px;
+  }
+  div .contact-f{
+    margin-top: 20px;
+    width: 320px;
+  }
+   
+  #form-i-text2{
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 30px;
+    width: 300px;
+  }
+  /* input.form-i-text{
+    width: 300px;
+  } */
+  .home-about{
+    margin-top: -70px;
+  }
+  
   
 }
