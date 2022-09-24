@@ -437,7 +437,9 @@
   }
   .list {
     transition-duration: .7s;
-    text-align: center;
+    margin: 0 auto;
+    left: -20px;
+    justify-content: center;
     position: relative;
     display: grid;
     /* position: fixed; */
