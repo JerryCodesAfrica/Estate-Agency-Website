@@ -24,6 +24,7 @@
                 <span class="hm-menu t2"></span>
                 <span class="hm-menu t3"></span>
             </button>
+            
             <span class="logo list1"><a href="#" class="logo-text">Estate<span class="logo-text-2">Agency</span></a></span>
             <span class="list">
                 <li class="active active-mobile list2 this"><a href="./Index.html">Home</a></li>
@@ -34,6 +35,7 @@
                         </span></a></li>
                 <li class="list6 this"><a href="./contact.html ">Contact</a></li>
             </span>
+            
             <span class="drop-down">
                 <li><a href="#" class="property-single">Property Single</a></li>
                 <br>
@@ -41,8 +43,9 @@
                 </a></li>
             </span>
             <a href="#" class="search-mobile"><img src="./img/Search-btn.svg" alt="" class="btn-moblie"
-                    style="width:25px;">
-            </a>
+                style="width:25px;">
+        </a>
+           
             <li class="list7"><a href="#" class="searchbtn1"><img src="./img/Search-btn.svg" alt="" class="img_list7"
                         id="img_list7"></a>
             </li>
@@ -493,11 +496,11 @@
                 slideWidth = slideEl.offsetWidth;
             });
             // Autoplay
-            const autoplay = setInterval(() => navigate("forward"), 2000);
+            const autoplay = setInterval(() => navigate("forward"), 1500);
             slideContainerEl.addEventListener("mouseenter", () => clearInterval(autoplay));
             // Slide transition
             const getNewScrollPosition = (arg) => {
-                const gap = 10;
+                const gap = 12;
                 const maxScrollLeft = slideContainerEl.scrollWidth - slideWidth;
                 if (arg === "forward") {
                     const x = slideContainerEl.scrollLeft + slideWidth + gap;

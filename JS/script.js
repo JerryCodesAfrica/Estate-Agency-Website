@@ -55,7 +55,7 @@ var t2 = document.querySelector(".t2");
 var t3 = document.querySelector(".t3");
 $(".ham-container").click(function (e) { 
     e.preventDefault();    
-    $(".list").toggleClass("lister");  
+    $(".navigation_menu").toggleClass("navigato");  
     $(".t1").toggleClass("t1-mobile");
     $(".t2").toggleClass("t2-mobile");
     $(".t3").toggleClass("t3-mobile");
