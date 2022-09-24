@@ -242,11 +242,12 @@
 
   .title-box-d {
     display: inline;
-    height: 90px;
+    height: 100px;
   }
 
   .title-d {
-    width: 240px;
+    width: 260px;
+    font-size: 25px;
   }
 
   .close-box {
@@ -506,6 +507,10 @@
   .list6 {
     position: relative;
     top: 20px;
+  }
+
+  .list5{
+    display: none;
   }
 
   .logo {
