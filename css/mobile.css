@@ -436,6 +436,7 @@
     width: 30px;
   }
   .list {
+    overflow-y: hidden;
     transition-duration: .7s;
     margin: 0 auto;
     left: -20px;
@@ -538,8 +539,8 @@
     content: " ";
     background-color: var(--green);
     height: 2px;
-    top: 20px;
-    left: 30px;
+    top: 25px;
+    left: 20px;
     display: grid;
     position: relative;
     margin: 0 auto;
