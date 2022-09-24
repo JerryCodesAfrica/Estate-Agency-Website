@@ -566,12 +566,12 @@
     margin-top: 80px;
   }
 
-  .header_container {
+   .header_container {
     display: grid;
     padding: 10px;
     margin-left: 20px;
     width: 100%;
-  }
+  } 
 
   .header_container .header-vl {
 
@@ -590,13 +590,17 @@
     font-size: 32px;
   }
 
-  .img_text_div {
-    margin-top: -100px;
+ .img_text_div {
+    margin-top: -80px;
     padding: 0;
-  }
-
-  .about-image-1 {
+  } 
+  .container-div-about{
     width: 100%;
+  }
+  .about-image-1 {
+    width: 800px;
+    height: auto;
+
   }
 
   .img-text-about {
@@ -971,11 +975,12 @@
   .btn-contact{
    position: relative;
    top: 45px;
-    width: 100px;
+   left: 0;
+    width: 130px;
     color: white;
     background-color: #000000;
     text-decoration: none;
-    padding:20px 100px;
+    padding:20px 80px;
   }
   
   .form-div1{
@@ -1000,11 +1005,12 @@
     font-size: 20px;
     font-weight: 100;
     margin-top: 30px;
-    width: 300px;
+    width: 270px;
   }
-  /* input.form-i-text{
-    width: 300px;
-  } */
+   input.form-i-text{
+    width: 270px;
+    margin-bottom: 10px;
+  } 
   .home-about{
     margin-top: -70px;
   }

@@ -774,6 +774,9 @@ input:not(.kw) {
 	filter: grayscale(100%);
 	transition: 2s;
 }
+.container-div-about{
+  margin-top: -180px;
+}
 
 .img-wrapper #spec-img-about{
   filter: none;
