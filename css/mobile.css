@@ -923,6 +923,12 @@
   .menu-foot ul {
     word-spacing: 10px;
   }
+  .footer-heading{
+    font-size: 15px;
+}
+  .grids div{
+    font-size: 12px;
+  }
 
   .menu-foot ul li {
     display: inline;

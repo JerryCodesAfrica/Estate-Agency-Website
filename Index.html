@@ -500,11 +500,11 @@
             slideContainerEl.addEventListener("mouseenter", () => clearInterval(autoplay));
             // Slide transition
             const getNewScrollPosition = (arg) => {
-                const gap = 12;
+                const gap = 9;
                 const maxScrollLeft = slideContainerEl.scrollWidth - slideWidth;
                 if (arg === "forward") {
                     const x = slideContainerEl.scrollLeft + slideWidth + gap;
-                    return x <= maxScrollLeft ? x : 0;
+                    return x <= maxScrollLeft ? x : 1;
                 } else if (arg === "backward") {
                     const x = slideContainerEl.scrollLeft - slideWidth - gap;
                     return x >= 0 ? x : maxScrollLeft;
