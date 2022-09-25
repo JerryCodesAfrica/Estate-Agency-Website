@@ -214,10 +214,20 @@
     margin-top: 30px;
     border-width: 2px;
     display: grid;
-    width: 256px;
+    width: 260px;
     height: 300px;
+    overflow-y: hidden;
     padding: 21px;
     border-radius: 10px;
+  }
+  h4,.grid-1-text,.grid-2-text,.grid-3-text{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+    border: none;
+    overflow-y: hidden;
+    padding:5px 20px;
+    margin: 0;
   }
 
   .card .grid-1 h4 {
@@ -228,7 +238,7 @@
 
   .icon {
     font-size: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 18px;
     font-weight: 600;
   }
 
