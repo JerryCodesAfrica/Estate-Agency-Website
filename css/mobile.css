@@ -713,6 +713,14 @@
     transform: scale(1.3);
     transition-duration: 3s;
   }
+  .container{
+    width: 1000px;
+    padding: 22px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+  }
 
   .card1-content {
     overflow-y: hidden;
