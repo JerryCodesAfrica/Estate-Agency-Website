@@ -5,6 +5,10 @@
 // 
 //   
 // 
+
+
+ 
+
 var searchbtn = document.querySelector(".searchbtn1");
 var searchmenu = document.querySelector(".box-collapse");
 var closesearch = document.querySelector(".clickclose");
