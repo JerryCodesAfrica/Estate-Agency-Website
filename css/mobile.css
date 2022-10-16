@@ -180,6 +180,7 @@
   /* ========= */
   .section-services {
     padding: 0;
+    text-align: center;
     margin: 0 auto;
     align-items: center;
     margin-top: 120px;
@@ -187,11 +188,14 @@
 
   .service-header {
     height: 80px;
+    left: 5px;
     position: relative;
-    font-size: 45px;
+    margin: 0 auto;
+    font-size: 42px;
+    display: block;
+    justify-content: center;
     top: 0;
     text-align: center;
-    left: 10px;
   }
 
   .service-header:after {
@@ -205,6 +209,8 @@
   }
 
   .section-card {
+    margin: 0;
+    padding-bottom: 120px;
     display: flex;
     flex-wrap: wrap;
     clip-path: none;
@@ -215,25 +221,24 @@
     border-width: 2px;
     display: grid;
     width: 260px;
-    height: 300px;
+    height: 330px;
     overflow-y: hidden;
     padding: 21px;
     border-radius: 10px;
   }
-  h4,.grid-1-text,.grid-2-text,.grid-3-text{
+  .grid-1-text,.grid-2-text,.grid-3-text{
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 10px;
+    text-align: left;
     border: none;
-    overflow-y: hidden;
-    padding:5px 20px;
-    margin: 0;
+    font-size: 100;
+    margin: 1rem;
   }
 
   .card .grid-1 h4 {
-    margin-top: -10px;
+    margin-top: -5px;
     color: grey;
-    font-weight: 200;
+    font-weight: 100;
   }
 
   .icon {
@@ -649,7 +654,11 @@
   }
 
   .team {
-    padding: 0 20px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    margin-left:3px;
+    justify-content: center;
   }
 
   .team-pics {
@@ -823,6 +832,7 @@
 
   .spec-img {
     width: 300px;
+    padding: 0;
   }
 
   .container_div_agents {

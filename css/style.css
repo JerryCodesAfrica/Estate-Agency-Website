@@ -550,6 +550,87 @@ input:not(.kw) {
   display: flex;
   justify-content: space-evenly;
 }
+
+
+.card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 350px;
+  width: 300px;
+  border-radius: 25px;
+  background-color: #ffffff;
+  box-shadow: 2px 0 20px rgba(0, 0, 0, 0.5);
+  /* overflow: hidden; */
+}
+
+.card:nth-child(1) {
+  margin-right: 30px;
+}
+
+body:hover .card {
+  filter: blur(15px);
+  transform: scale(0.9);
+  opactiy: 0.5;
+  transition: 0.9s;
+}
+
+body .card:hover {
+  filter: blur(0);
+  transform: scale(1);
+  opactiy: 1;
+  transition: 0.9s;
+}
+
+.my-h2 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 20px 0 0 20px;
+  font-size: 44px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 15px;
+  color: var(--green);
+  mix-blend-mode: difference;
+}
+
+p {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin: 0 20px 60px 20px;
+  font-size: 18px;
+  color: #ffffff;
+  mix-blend-mode: difference;
+}
+
+#circle {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  background-color: var(--green);
+  margin-top: -330px;
+  margin-left: 200px;
+}
+
+
+.content a {
+  position: absolute;
+  z-index: 9999;
+  right: 0;
+  bottom: 0;
+  margin: 0 20px 20px 0;
+  cursor: pointer;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 28px;
+  padding: 5px 10px 5px 10px;
+  border-radius: 30px;
+  box-shadow: 10px 0 50px rgba(0, 0, 0, 0.5);
+}
 #ls-service{
   color: #2ECA6A;
   margin-left: 20px;
@@ -1823,10 +1904,42 @@ input:not(.kw) {
 }
 .team-pics{
   flex-wrap: wrap;
-  width: 380px;
+  width: 410px;
   height: 390px;
 }
 
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: absolute;
+  bottom: 0;
+  z-index: 999999;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
 
 
 /* ===============Property grid================ */
@@ -1839,14 +1952,21 @@ input:not(.kw) {
   padding: 20px 150px;
   margin-top: 50px;
 }
+
+.property-coordinate{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
 .select-box{
-  height: 100px;
-  float: right;
-  top: -30px;
+  position: relative;
+  top: 1rem;
+  height: 120px;
 }
 #select-box-box{
   position: relative;
-  margin-left: 300px;
+  float: right;
+  top: -200rem;
 }
 /* ============card================== */
 .property-grid-desktop{
